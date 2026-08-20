@@ -1,0 +1,147 @@
+{
+  "nefropatía membranosa asociada a receptor de fosfolipasa a2 (pla2r)": {
+    "code": "NF-0001",
+    "label": "Nefropatía membranosa asociada a receptor de fosfolipasa A2 (PLA2R)",
+    "first_seen": "2026-07-21"
+  },
+  "sangrado por várices yeyunales secundario a hipertensión portal no cirrótica": {
+    "code": "NF-0002",
+    "label": "Sangrado por várices yeyunales secundario a hipertensión portal no cirrótica",
+    "first_seen": "2026-07-21"
+  },
+  "síndrome alfa gal por sensibilización a amblyomma americanum": {
+    "code": "NF-0003",
+    "label": "Síndrome alfa-gal por sensibilización a Amblyomma americanum",
+    "first_seen": "2026-07-21"
+  },
+  "infección articular periprotésica por mycobacterium bovis bcg": {
+    "code": "NF-0004",
+    "label": "Infección articular periprotésica por Mycobacterium bovis BCG",
+    "first_seen": "2026-07-21"
+  },
+  "bartonelosis diseminada por bartonella henselae": {
+    "code": "NF-0005",
+    "label": "Bartonelosis diseminada por Bartonella henselae",
+    "first_seen": "2026-07-21"
+  },
+  "osteomielitis vertebral enfisematosa por klebsiella pneumoniae productora de blee": {
+    "code": "NF-0006",
+    "label": "Osteomielitis vertebral enfisematosa por Klebsiella pneumoniae productora de BLEE",
+    "first_seen": "2026-07-21"
+  },
+  "melanosis tumoral post inmunoterapia": {
+    "code": "NF-0007",
+    "label": "Melanosis tumoral post-inmunoterapia",
+    "first_seen": "2026-07-21"
+  },
+  "colitis estercoral por impactación fecal crónica": {
+    "code": "NF-0008",
+    "label": "Colitis estercoral por impactación fecal crónica",
+    "first_seen": "2026-07-21"
+  },
+  "granuloma de majocchi por trichophyton tonsurans": {
+    "code": "NF-0009",
+    "label": "Granuloma de Majocchi por Trichophyton tonsurans",
+    "first_seen": "2026-07-21"
+  },
+  "ginecomastia inducida por espironolactona": {
+    "code": "NF-0010",
+    "label": "Ginecomastia inducida por espironolactona",
+    "first_seen": "2026-07-21"
+  },
+  "intususcepción gastrogástrica en síndrome de peutz jeghers": {
+    "code": "NF-0011",
+    "label": "Intususcepción gastrogástrica en síndrome de Peutz-Jeghers",
+    "first_seen": "2026-07-21"
+  },
+  "erupción por amoxicilina en mononucleosis infecciosa por virus de epstein barr": {
+    "code": "NF-0012",
+    "label": "Erupción por amoxicilina en mononucleosis infecciosa por virus de Epstein-Barr",
+    "first_seen": "2026-07-21"
+  },
+  "telaziasis ocular por thelazia callipaeda": {
+    "code": "NF-0013",
+    "label": "Telaziasis ocular por Thelazia callipaeda",
+    "first_seen": "2026-07-21"
+  },
+  "émbolo de cemento intracardíaco complicación de cifoplastia vertebral": {
+    "code": "NF-0014",
+    "label": "Émbolo de cemento intracardíaco complicación de cifoplastia vertebral",
+    "first_seen": "2026-07-21"
+  },
+  "pápulas perladas del pene (variante anatómica normal)": {
+    "code": "NF-0015",
+    "label": "Pápulas perladas del pene (variante anatómica normal)",
+    "first_seen": "2026-07-21"
+  },
+  "abscesos cerebrales por nocardia farcinica en mieloma múltiple": {
+    "code": "NF-0016",
+    "label": "Abscesos cerebrales por Nocardia farcinica en mieloma múltiple",
+    "first_seen": "2026-07-21"
+  },
+  "melanoma gingival primario de la cavidad oral": {
+    "code": "NF-0017",
+    "label": "Melanoma gingival primario de la cavidad oral",
+    "first_seen": "2026-07-21"
+  },
+  "pioestomatitis vegetante en enfermedad de crohn": {
+    "code": "NF-0018",
+    "label": "Pioestomatitis vegetante en enfermedad de Crohn",
+    "first_seen": "2026-07-21"
+  },
+  "lesión de morel lavallée postraumática": {
+    "code": "NF-0019",
+    "label": "Lesión de Morel-Lavallée postraumática",
+    "first_seen": "2026-07-21"
+  },
+  "hiperpigmentación inducida por minociclina tipo iii": {
+    "code": "NF-0020",
+    "label": "Hiperpigmentación inducida por minociclina tipo III",
+    "first_seen": "2026-07-21"
+  },
+  "quiste de epitelio pigmentario del iris libre en el vítreo": {
+    "code": "NF-0021",
+    "label": "Quiste de epitelio pigmentario del iris libre en el vítreo",
+    "first_seen": "2026-07-21"
+  },
+  "anemia hemolítica con esferocitosis por acantocitos (anemia hemolítica de células en espuela) en cirrosis alcohólica avanzada": {
+    "code": "NF-0022",
+    "label": "Anemia hemolítica con esferocitosis por acantocitos (anemia hemolítica de células en espuela) en cirrosis alcohólica avanzada",
+    "first_seen": "2026-07-21"
+  },
+  "molusco contagioso diseminado en infección por vih con inmunodeficiencia avanzada": {
+    "code": "NF-0023",
+    "label": "Molusco contagioso diseminado en infección por VIH con inmunodeficiencia avanzada",
+    "first_seen": "2026-07-21"
+  },
+  "vena cava superior izquierda persistente aislada detectada incidentalmente durante colocación de catéter de hemodiálisis": {
+    "code": "NF-0024",
+    "label": "Vena cava superior izquierda persistente aislada detectada incidentalmente durante colocación de catéter de hemodiálisis",
+    "first_seen": "2026-07-21"
+  },
+  "infección aguda por virus de la inmunodeficiencia humana tipo 1 (vih 1)": {
+    "code": "NF-0025",
+    "label": "Infección aguda por virus de la inmunodeficiencia humana tipo 1 (VIH-1)",
+    "first_seen": "2026-07-21"
+  },
+  "inflamación relacionada con angiopatía amiloide cerebral": {
+    "code": "NF-0026",
+    "label": "Inflamación relacionada con angiopatía amiloide cerebral",
+    "first_seen": "2026-07-21"
+  },
+  "síndrome de encefalopatía posterior reversible por enfermedad de células falciformes": {
+    "code": "NF-0027",
+    "label": "Síndrome de encefalopatía posterior reversible por enfermedad de células falciformes",
+    "first_seen": "2026-07-21"
+  },
+  "enfermedad meningocócica diseminada por neisseria meningitidis serogrupo w": {
+    "code": "NF-0028",
+    "label": "Enfermedad meningocócica diseminada por Neisseria meningitidis serogrupo W",
+    "first_seen": "2026-07-21"
+  },
+  "empiema neumocócico por streptococcus pneumoniae": {
+    "code": "NF-0029",
+    "label": "Empiema neumocócico por Streptococcus pneumoniae",
+    "first_seen": "2026-07-21"
+  }
+}

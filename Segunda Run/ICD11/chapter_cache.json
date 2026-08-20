@@ -1,0 +1,914 @@
+{
+  "5D00": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5D00[category]"
+  },
+  "1C1G": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C1G[category]"
+  },
+  "2C12": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2C12[category]"
+  },
+  "1F6B": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F6B[category]"
+  },
+  "1F27": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F27[category]"
+  },
+  "XH1VJ3": {
+    "chapter_code": "X",
+    "chapter_title": "Extension Codes",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "X[chapter] > ?[block] > ?[block] > ?[block] > XH1VJ3[category]"
+  },
+  "4B20": {
+    "chapter_code": "04",
+    "chapter_title": "Diseases of the immune system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "04[chapter] > ?[block] > 4B20[category]"
+  },
+  "2B55": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B55[category]"
+  },
+  "5A22": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > ?[block] > 5A22[category]"
+  },
+  "2F98&XA6KU8": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "02[chapter] > ?[block] > 2F98[category]"
+  },
+  "DB98": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DB98[category]"
+  },
+  "DB90": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DB90[category]"
+  },
+  "2C25": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2C25[category]"
+  },
+  "1F60": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F60[category]"
+  },
+  "2A85": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A85[category]"
+  },
+  "1D62": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1D62[category]"
+  },
+  "5A03": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5A03[category]"
+  },
+  "1E90": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1E90[category]"
+  },
+  "4A44": {
+    "chapter_code": "04",
+    "chapter_title": "Diseases of the immune system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "04[chapter] > ?[block] > 4A44[category]"
+  },
+  "2A81": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A81[category]"
+  },
+  "BD51": {
+    "chapter_code": "11",
+    "chapter_title": "Diseases of the circulatory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "11[chapter] > ?[block] > BD51[category]"
+  },
+  "1C80": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C80[category]"
+  },
+  "1F53": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1F53[category]"
+  },
+  "1C1C": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C1C[category]"
+  },
+  "BB70": {
+    "chapter_code": "11",
+    "chapter_title": "Diseases of the circulatory system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "11[chapter] > ?[block] > ?[block] > BB70[category]"
+  },
+  "1C60": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C60[category]"
+  },
+  "7A20": {
+    "chapter_code": "07",
+    "chapter_title": "Sleep-wake disorders",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "07[chapter] > ?[block] > 7A20[category]"
+  },
+  "8A40": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "08[chapter] > ?[block] > 8A40[category]"
+  },
+  "2A01": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "02[chapter] > ?[block] > 2A01[category]"
+  },
+  "3A61": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "03[chapter] > ?[block] > ?[block] > 3A61[category]"
+  },
+  "ED6Y": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > ?[block] > ED6Y[category]"
+  },
+  "1F85": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F85[category]"
+  },
+  "2B57": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B57[category]"
+  },
+  "9B72": {
+    "chapter_code": "09",
+    "chapter_title": "Diseases of the visual system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "09[chapter] > ?[block] > ?[block] > 9B72[category]"
+  },
+  "8B22": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "08[chapter] > ?[block] > 8B22[category]"
+  },
+  "2B01": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B01[category]"
+  },
+  "CA71": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "12[chapter] > ?[block] > ?[block] > CA71[category]"
+  },
+  "8B92": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "08[chapter] > ?[block] > ?[block] > 8B92[category]"
+  },
+  "CB03": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CB03[category]"
+  },
+  "LA02": {
+    "chapter_code": "20",
+    "chapter_title": "Developmental anomalies",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "20[chapter] > ?[block] > ?[block] > LA02[category]"
+  },
+  "DA01": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DA01[category]"
+  },
+  "BD75": {
+    "chapter_code": "11",
+    "chapter_title": "Diseases of the circulatory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "11[chapter] > ?[block] > BD75[category]"
+  },
+  "DA42": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "13[chapter] > ?[block] > ?[block] > DA42[category]"
+  },
+  "FB85": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "15[chapter] > ?[block] > FB85[category]"
+  },
+  "2C6Z&XS9R": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2C6Z[category]"
+  },
+  "1B11": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1B11[category]"
+  },
+  "2B02": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B02[category]"
+  },
+  "GA18": {
+    "chapter_code": "16",
+    "chapter_title": "Diseases of the genitourinary system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "16[chapter] > ?[block] > ?[block] > GA18[category]"
+  },
+  "KA07": {
+    "chapter_code": "19",
+    "chapter_title": "Certain conditions originating in the perinatal period",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "19[chapter] > ?[block] > KA07[category]"
+  },
+  "2A21": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A21[category]"
+  },
+  "1F51": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1F51[category]"
+  },
+  "2B00": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B00[category]"
+  },
+  "8A80": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "08[chapter] > ?[block] > 8A80[category]"
+  },
+  "DD52": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DD52[category]"
+  },
+  "1F54": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1F54[category]"
+  },
+  "DA20": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DA20[category]"
+  },
+  "EA90": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > EA90[category]"
+  },
+  "1E91": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1E91[category]"
+  },
+  "DA24": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DA24[category]"
+  },
+  "1G04": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1G04[category]"
+  },
+  "2D70": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2D70[category]"
+  },
+  "EA10": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > ?[block] > EA10[category]"
+  },
+  "1F67": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F67[category]"
+  },
+  "CA82": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA82[category]"
+  },
+  "1F2C": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F2C[category]"
+  },
+  "CA60": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA60[category]"
+  },
+  "2C34": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2C34[category]"
+  },
+  "1F24": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F24[category]"
+  },
+  "LA8Y": {
+    "chapter_code": "20",
+    "chapter_title": "Developmental anomalies",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "20[chapter] > ?[block] > ?[block] > ?[block] > LA8Y[category]"
+  },
+  "1F04": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F04[category]"
+  },
+  "1F00": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F00[category]"
+  },
+  "1F03": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F03[category]"
+  },
+  "7A41": {
+    "chapter_code": "07",
+    "chapter_title": "Sleep-wake disorders",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "07[chapter] > ?[block] > 7A41[category]"
+  },
+  "CA40": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA40[category]"
+  },
+  "FB50": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "15[chapter] > ?[block] > ?[block] > FB50[category]"
+  },
+  "2B56": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B56[category]"
+  },
+  "2B51": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2B51[category]"
+  },
+  "1A62": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1A62[category]"
+  },
+  "1F70": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F70[category]"
+  },
+  "1A95": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1A95[category]"
+  },
+  "EB12": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > EB12[category]"
+  },
+  "EB20": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > ?[block] > EB20[category]"
+  },
+  "4A42": {
+    "chapter_code": "04",
+    "chapter_title": "Diseases of the immune system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "04[chapter] > ?[block] > 4A42[category]"
+  },
+  "3A20": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "03[chapter] > ?[block] > ?[block] > ?[block] > 3A20[category]"
+  },
+  "LB62": {
+    "chapter_code": "20",
+    "chapter_title": "Developmental anomalies",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "20[chapter] > ?[block] > ?[block] > LB62[category]"
+  },
+  "5C58": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5C58[category]"
+  },
+  "2A02": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "02[chapter] > ?[block] > 2A02[category]"
+  },
+  "1F66": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > ?[block] > 1F66[category]"
+  },
+  "CA44": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA44[category]"
+  },
+  "5B5K": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5B5K[category]"
+  },
+  "1G01": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1G01[category]"
+  },
+  "1C10": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C10[category]"
+  },
+  "1A61": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "01[chapter] > ?[block] > ?[block] > 1A61[category]"
+  },
+  "EB2Y": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > ?[block] > EB2Y[category]"
+  },
+  "JA8A": {
+    "chapter_code": "18",
+    "chapter_title": "Pregnancy, childbirth or the puerperium",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "18[chapter] > ?[block] > JA8A[category]"
+  },
+  "2A90": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A90[category]"
+  },
+  "5C64": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5C64[category]"
+  },
+  "2A40": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A40[category]"
+  },
+  "FB80": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "15[chapter] > ?[block] > FB80[category]"
+  },
+  "GB01": {
+    "chapter_code": "16",
+    "chapter_title": "Diseases of the genitourinary system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "16[chapter] > ?[block] > GB01[category]"
+  },
+  "EB42": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > EB42[category]"
+  },
+  "GA10": {
+    "chapter_code": "16",
+    "chapter_title": "Diseases of the genitourinary system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "16[chapter] > ?[block] > GA10[category]"
+  },
+  "BB00": {
+    "chapter_code": "11",
+    "chapter_title": "Diseases of the circulatory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "11[chapter] > ?[block] > BB00[category]"
+  },
+  "DA21": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DA21[category]"
+  },
+  "9C61": {
+    "chapter_code": "09",
+    "chapter_title": "Diseases of the visual system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "09[chapter] > ?[block] > 9C61[category]"
+  },
+  "MG50": {
+    "chapter_code": "21",
+    "chapter_title": "Symptoms, signs or clinical findings, not elsewhere classified",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "21[chapter] > ?[block] > ?[block] > MG50[category]"
+  },
+  "PA78&XE75L": {
+    "chapter_code": "23",
+    "chapter_title": "External causes of morbidity or mortality",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "23[chapter] > ?[block] > ?[block] > PA78[category]"
+  },
+  "1F28": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1F28[category]"
+  },
+  "9B71": {
+    "chapter_code": "09",
+    "chapter_title": "Diseases of the visual system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "09[chapter] > ?[block] > ?[block] > 9B71[category]"
+  },
+  "EC20": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "14[chapter] > ?[block] > EC20[category]"
+  },
+  "LD2D": {
+    "chapter_code": "20",
+    "chapter_title": "Developmental anomalies",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "20[chapter] > ?[block] > LD2D[category]"
+  },
+  "1B71": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1B71[category]"
+  },
+  "DA07": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DA07[category]"
+  },
+  "CA08": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA08[category]"
+  },
+  "2B31": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "02[chapter] > ?[block] > 2B31[category]"
+  },
+  "9B02": {
+    "chapter_code": "09",
+    "chapter_title": "Diseases of the visual system",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "09[chapter] > ?[block] > ?[block] > 9B02[category]"
+  },
+  "FA25": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "15[chapter] > ?[block] > ?[block] > FA25[category]"
+  },
+  "ND14": {
+    "chapter_code": "22",
+    "chapter_title": "Injury, poisoning or certain other consequences of external causes",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "22[chapter] > ?[block] > ND14[category]"
+  },
+  "BB01": {
+    "chapter_code": "11",
+    "chapter_title": "Diseases of the circulatory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "11[chapter] > ?[block] > BB01[category]"
+  },
+  "2E08": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2E08[category]"
+  },
+  "2C70": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2C70[category]"
+  },
+  "2A60": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "02[chapter] > ?[block] > 2A60[category]"
+  },
+  "CA42": {
+    "chapter_code": "12",
+    "chapter_title": "Diseases of the respiratory system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "12[chapter] > ?[block] > CA42[category]"
+  },
+  "EC90": {
+    "chapter_code": "14",
+    "chapter_title": "Diseases of the skin",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "14[chapter] > ?[block] > ?[block] > EC90[category]"
+  },
+  "5B5C": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5B5C[category]"
+  },
+  "1C4Y": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C4Y[category]"
+  },
+  "LD28": {
+    "chapter_code": "20",
+    "chapter_title": "Developmental anomalies",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "20[chapter] > ?[block] > LD28[category]"
+  },
+  "3B64": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "03[chapter] > ?[block] > 3B64[category]"
+  },
+  "FB86": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "15[chapter] > ?[block] > FB86[category]"
+  },
+  "MB26": {
+    "chapter_code": "21",
+    "chapter_title": "Symptoms, signs or clinical findings, not elsewhere classified",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "21[chapter] > ?[block] > MB26[category]"
+  },
+  "5B56": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5B56[category]"
+  },
+  "3A70": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "03[chapter] > ?[block] > 3A70[category]"
+  },
+  "FA24": {
+    "chapter_code": "15",
+    "chapter_title": "Diseases of the musculoskeletal system or connective tissue",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "15[chapter] > ?[block] > ?[block] > FA24[category]"
+  },
+  "QC90": {
+    "chapter_code": "24",
+    "chapter_title": "Factors influencing health status or contact with health services",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "24[chapter] > ?[block] > ?[block] > QC90[category]"
+  },
+  "2B92": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 6,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > ?[block] > ?[block] > 2B92[category]"
+  },
+  "3B10": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "03[chapter] > ?[block] > ?[block] > ?[block] > 3B10[category]"
+  },
+  "1C19": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C19[category]"
+  },
+  "4A41": {
+    "chapter_code": "04",
+    "chapter_title": "Diseases of the immune system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "04[chapter] > ?[block] > 4A41[category]"
+  },
+  "NE61": {
+    "chapter_code": "22",
+    "chapter_title": "Injury, poisoning or certain other consequences of external causes",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "22[chapter] > ?[block] > NE61[category]"
+  },
+  "4A60": {
+    "chapter_code": "04",
+    "chapter_title": "Diseases of the immune system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "04[chapter] > ?[block] > 4A60[category]"
+  },
+  "2A20": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > 2A20[category]"
+  },
+  "5A51": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5A51[category]"
+  },
+  "1B96": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1B96[category]"
+  },
+  "NF0A": {
+    "chapter_code": "22",
+    "chapter_title": "Injury, poisoning or certain other consequences of external causes",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "22[chapter] > ?[block] > NF0A[category]"
+  },
+  "3B62": {
+    "chapter_code": "03",
+    "chapter_title": "Diseases of the blood or blood-forming organs",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "03[chapter] > ?[block] > 3B62[category]"
+  },
+  "7B01": {
+    "chapter_code": "07",
+    "chapter_title": "Sleep-wake disorders",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "07[chapter] > ?[block] > 7B01[category]"
+  },
+  "5A13": {
+    "chapter_code": "05",
+    "chapter_title": "Endocrine, nutritional or metabolic diseases",
+    "hierarchical_distance": 3,
+    "hierarchy_path": "05[chapter] > ?[block] > ?[block] > 5A13[category]"
+  },
+  "DD70": {
+    "chapter_code": "13",
+    "chapter_title": "Diseases of the digestive system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "13[chapter] > ?[block] > DD70[category]"
+  },
+  "8E02": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "08[chapter] > ?[block] > 8E02[category]"
+  },
+  "1C62": {
+    "chapter_code": "01",
+    "chapter_title": "Certain infectious or parasitic diseases",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "01[chapter] > ?[block] > 1C62[category]"
+  },
+  "8E47": {
+    "chapter_code": "08",
+    "chapter_title": "Diseases of the nervous system",
+    "hierarchical_distance": 2,
+    "hierarchy_path": "08[chapter] > ?[block] > 8E47[category]"
+  },
+  "2E03": {
+    "chapter_code": "02",
+    "chapter_title": "Neoplasms",
+    "hierarchical_distance": 4,
+    "hierarchy_path": "02[chapter] > ?[block] > ?[block] > ?[block] > 2E03[category]"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "parte2_metrics_per_run": {
+    "1": {
+      "total": 201,
+      "resolved": 174,
+      "nf": 27,
+      "yes": 158,
+      "no": 16,
+      "coverage": 0.8656716417910447,
+      "coherence": 0.9080459770114943,
+      "precision_A": 1.0,
+      "recall_A": 0.7860696517412935,
+      "f1_A": 0.8802228412256268,
+      "precision_B": 0.9080459770114943,
+      "recall_B": 1.0,
+      "f1_B": 0.9518072289156626,
+      "precision_C": 1.0,
+      "recall_C": 0.9080459770114943,
+      "f1_C": 0.9518072289156626
+    },
+    "2": {
+      "total": 201,
+      "resolved": 174,
+      "nf": 27,
+      "yes": 158,
+      "no": 16,
+      "coverage": 0.8656716417910447,
+      "coherence": 0.9080459770114943,
+      "precision_A": 1.0,
+      "recall_A": 0.7860696517412935,
+      "f1_A": 0.8802228412256268,
+      "precision_B": 0.9080459770114943,
+      "recall_B": 1.0,
+      "f1_B": 0.9518072289156626,
+      "precision_C": 1.0,
+      "recall_C": 0.9080459770114943,
+      "f1_C": 0.9518072289156626
+    },
+    "3": {
+      "total": 201,
+      "resolved": 175,
+      "nf": 26,
+      "yes": 160,
+      "no": 15,
+      "coverage": 0.8706467661691543,
+      "coherence": 0.9142857142857143,
+      "precision_A": 1.0,
+      "recall_A": 0.7960199004975125,
+      "f1_A": 0.886426592797784,
+      "precision_B": 0.9142857142857143,
+      "recall_B": 1.0,
+      "f1_B": 0.955223880597015,
+      "precision_C": 1.0,
+      "recall_C": 0.9142857142857143,
+      "f1_C": 0.955223880597015
+    },
+    "4": {
+      "total": 201,
+      "resolved": 173,
+      "nf": 28,
+      "yes": 157,
+      "no": 16,
+      "coverage": 0.8606965174129353,
+      "coherence": 0.9075144508670521,
+      "precision_A": 1.0,
+      "recall_A": 0.7810945273631841,
+      "f1_A": 0.877094972067039,
+      "precision_B": 0.9075144508670521,
+      "recall_B": 1.0,
+      "f1_B": 0.9515151515151515,
+      "precision_C": 1.0,
+      "recall_C": 0.9075144508670521,
+      "f1_C": 0.9515151515151515
+    },
+    "5": {
+      "total": 201,
+      "resolved": 173,
+      "nf": 28,
+      "yes": 158,
+      "no": 15,
+      "coverage": 0.8606965174129353,
+      "coherence": 0.9132947976878613,
+      "precision_A": 1.0,
+      "recall_A": 0.7860696517412935,
+      "f1_A": 0.8802228412256268,
+      "precision_B": 0.9132947976878613,
+      "recall_B": 1.0,
+      "f1_B": 0.9546827794561934,
+      "precision_C": 1.0,
+      "recall_C": 0.9132947976878613,
+      "f1_C": 0.9546827794561934
+    },
+    "6": {
+      "total": 201,
+      "resolved": 175,
+      "nf": 26,
+      "yes": 159,
+      "no": 16,
+      "coverage": 0.8706467661691543,
+      "coherence": 0.9085714285714286,
+      "precision_A": 1.0,
+      "recall_A": 0.7910447761194029,
+      "f1_A": 0.8833333333333333,
+      "precision_B": 0.9085714285714286,
+      "recall_B": 1.0,
+      "f1_B": 0.9520958083832335,
+      "precision_C": 1.0,
+      "recall_C": 0.9085714285714286,
+      "f1_C": 0.9520958083832335
+    },
+    "7": {
+      "total": 201,
+      "resolved": 174,
+      "nf": 27,
+      "yes": 158,
+      "no": 16,
+      "coverage": 0.8656716417910447,
+      "coherence": 0.9080459770114943,
+      "precision_A": 1.0,
+      "recall_A": 0.7860696517412935,
+      "f1_A": 0.8802228412256268,
+      "precision_B": 0.9080459770114943,
+      "recall_B": 1.0,
+      "f1_B": 0.9518072289156626,
+      "precision_C": 1.0,
+      "recall_C": 0.9080459770114943,
+      "f1_C": 0.9518072289156626
+    },
+    "8": {
+      "total": 201,
+      "resolved": 175,
+      "nf": 26,
+      "yes": 160,
+      "no": 15,
+      "coverage": 0.8706467661691543,
+      "coherence": 0.9142857142857143,
+      "precision_A": 1.0,
+      "recall_A": 0.7960199004975125,
+      "f1_A": 0.886426592797784,
+      "precision_B": 0.9142857142857143,
+      "recall_B": 1.0,
+      "f1_B": 0.955223880597015,
+      "precision_C": 1.0,
+      "recall_C": 0.9142857142857143,
+      "f1_C": 0.955223880597015
+    },
+    "9": {
+      "total": 201,
+      "resolved": 174,
+      "nf": 27,
+      "yes": 159,
+      "no": 15,
+      "coverage": 0.8656716417910447,
+      "coherence": 0.9137931034482759,
+      "precision_A": 1.0,
+      "recall_A": 0.7910447761194029,
+      "f1_A": 0.8833333333333333,
+      "precision_B": 0.9137931034482759,
+      "recall_B": 1.0,
+      "f1_B": 0.9549549549549551,
+      "precision_C": 1.0,
+      "recall_C": 0.9137931034482759,
+      "f1_C": 0.9549549549549551
+    },
+    "10": {
+      "total": 201,
+      "resolved": 174,
+      "nf": 27,
+      "yes": 158,
+      "no": 16,
+      "coverage": 0.8656716417910447,
+      "coherence": 0.9080459770114943,
+      "precision_A": 1.0,
+      "recall_A": 0.7860696517412935,
+      "f1_A": 0.8802228412256268,
+      "precision_B": 0.9080459770114943,
+      "recall_B": 1.0,
+      "f1_B": 0.9518072289156626,
+      "precision_C": 1.0,
+      "recall_C": 0.9080459770114943,
+      "f1_C": 0.9518072289156626
+    }
+  },
+  "parte2_aggregate": {
+    "coverage": {
+      "mean": 0.8661691542288559,
+      "std": 0.003670969091406107,
+      "ci95_lo": 0.8635432835820896,
+      "ci95_hi": 0.8687950248756221
+    },
+    "coherence": {
+      "mean": 0.9103929117192022,
+      "std": 0.0030537011684767822,
+      "ci95_lo": 0.9082085772661906,
+      "ci95_hi": 0.9125772461722138
+    },
+    "precision_A": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci95_lo": 1.0,
+      "ci95_hi": 1.0
+    },
+    "recall_A": {
+      "mean": 0.7885572139303483,
+      "std": 0.004834951819938076,
+      "ci95_lo": 0.7850987380493538,
+      "ci95_hi": 0.7920156898113427
+    },
+    "f1_A": {
+      "mean": 0.8817729030457407,
+      "std": 0.003019934481515012,
+      "ci95_lo": 0.8796127221472604,
+      "ci95_hi": 0.8839330839442211
+    },
+    "precision_B": {
+      "mean": 0.9103929117192022,
+      "std": 0.0030537011684767822,
+      "ci95_lo": 0.9082085772661906,
+      "ci95_hi": 0.9125772461722138
+    },
+    "recall_B": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci95_lo": 1.0,
+      "ci95_hi": 1.0
+    },
+    "f1_B": {
+      "mean": 0.9530925371166215,
+      "std": 0.0016724035649141138,
+      "ci95_lo": 0.9518962547940772,
+      "ci95_hi": 0.9542888194391657
+    },
+    "precision_C": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci95_lo": 1.0,
+      "ci95_hi": 1.0
+    },
+    "recall_C": {
+      "mean": 0.9103929117192022,
+      "std": 0.0030537011684767822,
+      "ci95_lo": 0.9082085772661906,
+      "ci95_hi": 0.9125772461722138
+    },
+    "f1_C": {
+      "mean": 0.9530925371166215,
+      "std": 0.0016724035649141138,
+      "ci95_lo": 0.9518962547940772,
+      "ci95_hi": 0.9542888194391657
+    }
+  },
+  "parte3_stability_summary": {
+    "estable_consistente": {
+      "count": 154,
+      "pct": 0.7661691542288557
+    },
+    "estable_inconsistente": {
+      "count": 16,
+      "pct": 0.07960199004975124
+    },
+    "inestable": {
+      "count": 2,
+      "pct": 0.009950248756218905
+    },
+    "NF_persistente": {
+      "count": 25,
+      "pct": 0.12437810945273632
+    },
+    "NF_intermitente": {
+      "count": 4,
+      "pct": 0.01990049751243781
+    }
+  },
+  "parte3_deterministic_violations": [],
+  "parte4_judge_variance": [
+    {
+      "filename": "NEJMcpc2412521.pdf",
+      "diagnosis_es": "Reninoma",
+      "icd11_code": "2F98&XA6KU8",
+      "n_yes": 4,
+      "n_no": 6,
+      "n_eval": 10,
+      "pct_yes": 0.4,
+      "consistency_detail": {
+        "run1": "no",
+        "run2": "no",
+        "run3": "yes",
+        "run4": "no",
+        "run5": "yes",
+        "run6": "no",
+        "run7": "no",
+        "run8": "yes",
+        "run9": "yes",
+        "run10": "no"
+      }
+    }
+  ],
+  "parte5_match_type_distribution": {
+    "aggregate": {
+      "exact_complete": {
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5,
+        "max": 5
+      },
+      "exact_core": {
+        "mean": 54.7,
+        "std": 0.6749485577105528,
+        "min": 54,
+        "max": 56
+      },
+      "fuzzy_complete": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1,
+        "max": 1
+      },
+      "fuzzy_core": {
+        "mean": 6.4,
+        "std": 0.5163977794943222,
+        "min": 6,
+        "max": 7
+      },
+      "nf": {
+        "mean": 26.9,
+        "std": 0.7378647873726218,
+        "min": 26,
+        "max": 28
+      },
+      "who_search": {
+        "mean": 107.0,
+        "std": 1.247219128924647,
+        "min": 105,
+        "max": 109
+      }
+    },
+    "early_vs_late": {
+      "exact_complete": {
+        "early_mean": 5.0,
+        "late_mean": 5.0,
+        "diff": 0.0
+      },
+      "exact_core": {
+        "early_mean": 55.0,
+        "late_mean": 54.625,
+        "diff": -0.375
+      },
+      "fuzzy_complete": {
+        "early_mean": 1.0,
+        "late_mean": 1.0,
+        "diff": 0.0
+      },
+      "fuzzy_core": {
+        "early_mean": 6.5,
+        "late_mean": 6.375,
+        "diff": -0.125
+      },
+      "nf": {
+        "early_mean": 27.0,
+        "late_mean": 26.875,
+        "diff": -0.125
+      },
+      "who_search": {
+        "early_mean": 106.5,
+        "late_mean": 107.125,
+        "diff": 0.625
+      }
+    }
+  },
+  "parte6_nf_analysis": {
+    "nf_per_run": {
+      "run1": 27,
+      "run2": 27,
+      "run3": 26,
+      "run4": 28,
+      "run5": 28,
+      "run6": 26,
+      "run7": 27,
+      "run8": 26,
+      "run9": 27,
+      "run10": 27
+    },
+    "nf_persistent_count": 25,
+    "nf_any_count": 29,
+    "nf_churn_count": 4,
+    "nf_churn_filenames": [
+      "109-NEJMicm2035551.pdf",
+      "112-NEJMcpc2107345.pdf",
+      "NEJMcpc2412511.pdf",
+      "NEJMcpc2513324.pdf"
+    ],
+    "independence_warning": true
+  },
+  "warnings": [
+    "[INDEPENDENCIA] El diccionario NF acumulativo compromete la independencia entre corridas. 25 diagnósticos son NF en TODAS las corridas (cacheados). Los intervalos de confianza de la Parte 2 asumen independencia, pero las corridas comparten estado a través del diccionario NF.",
+    "[NF-CHURN] 4 diagnóstico(s) entran/salen de NF entre corridas. Esto indica que el pipeline SÍ reintenta algunos diagnósticos, pero el resultado varía.",
+    "[JUEZ-LLM] 1 diagnóstico(s) tienen código estable pero coherencia variable entre corridas. Esto es varianza del evaluador (MedGemma), no del pipeline. Afecta métricas de coherencia/precisión."
+  ]
+}

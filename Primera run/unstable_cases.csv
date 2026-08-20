@@ -1,0 +1,7 @@
+filename,diagnosis_es,category,modal_code,modal_count,agreement_pct,n_unique_codes,all_codes
+NEJMcpc2412511.pdf,Síndrome de encefalopatía posterior reversible por enfermedad de células falciformes,NF_intermitente,NF-0027,5,0.5,3,NF-0027(5); 8E47(3); NF-0001(2)
+161-NEJMcps2108991.pdf,Neumonía por Legionella pneumophila serogrupo 6 nosocomial en paciente con leucemia mieloide aguda,inestable,1C19,6,0.6,2,1C19(6); CA40(4)
+112-NEJMcpc2107345.pdf,Infección aguda por virus de la inmunodeficiencia humana tipo 1 (VIH-1),NF_intermitente,NF-0025,7,0.7,3,NF-0025(7); NF-0026(2); 1C62(1)
+109-NEJMicm2035551.pdf,Empiema neumocócico por Streptococcus pneumoniae,NF_intermitente,CA44,8,0.8,3,CA44(8); NF-0028(1); NF-0029(1)
+NEJMicm2412464.pdf,Variz vaginal en el embarazo,inestable,BD75,9,0.9,2,BD75(9); JA61(1)
+NEJMcpc2513324.pdf,Enfermedad meningocócica diseminada por Neisseria meningitidis serogrupo W,NF_intermitente,1C1C,9,0.9,2,1C1C(9); NF-0028(1)

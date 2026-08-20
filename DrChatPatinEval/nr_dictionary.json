@@ -1,0 +1,884 @@
+{
+  "obstrucción mesentérica superior": {
+    "code": "NR-GAST-001",
+    "label": "Obstrucción mesentérica superior",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "obstrucción intestinal pseudo‑obstétrica": {
+    "code": "NR-GAST-002",
+    "label": "Obstrucción intestinal pseudo‑obstétrica",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "estado postictal": {
+    "code": "NR-NEUR-001",
+    "label": "Estado postictal",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefopatía uremica": {
+    "code": "NR-NEUR-002",
+    "label": "Encefopatía uremica",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de membranopatía granular iga": {
+    "code": "NR-REN-001",
+    "label": "Síndrome de membranopatía granular IgA",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de cacos": {
+    "code": "NR-OTR-001",
+    "label": "Síndrome de cacos",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "encefalopatía asociada a sepsis": {
+    "code": "NR-NEUR-003",
+    "label": "Encefalopatía asociada a sepsis",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "mds/mpn híbrido": {
+    "code": "NR-HEMAT-001",
+    "label": "MDS/MPN híbrido",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "reacción medicamentosa": {
+    "code": "NR-OTR-002",
+    "label": "Reacción medicamentosa",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "infección por bartonella henselae": {
+    "code": "NR-INFEC-001",
+    "label": "Infección por Bartonella henselae",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "requedad fosfatasa": {
+    "code": "NR-OTR-003",
+    "label": "Requedad fosfatasa",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de afémoglobina": {
+    "code": "NR-HEMAT-002",
+    "label": "Síndrome de afémoglobina",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "mds/aml": {
+    "code": "NR-HEMAT-003",
+    "label": "MDS/AML",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "ttp": {
+    "code": "NR-HEMAT-004",
+    "label": "TTP",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "trastornos de mineralización ósea": {
+    "code": "NR-MUSC-001",
+    "label": "Trastornos de mineralización ósea",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "pnh": {
+    "code": "NR-HEMAT-005",
+    "label": "PNH",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "vasculitis de henne‑schönlein": {
+    "code": "NR-OTR-004",
+    "label": "Vasculitis de Henne‑Schönlein",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "reacción leukémica": {
+    "code": "NR-HEMAT-006",
+    "label": "Reacción leukémica",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "mutación en cyp24a1": {
+    "code": "NR-ENDOC-001",
+    "label": "Mutación en CYP24A1",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "enfermedad autoinmune sistémica": {
+    "code": "NR-OTR-005",
+    "label": "Enfermedad autoinmune sistémica",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "deficiencia genética de cyp24a1": {
+    "code": "NR-ENDOC-002",
+    "label": "Deficiencia genética de CYP24A1",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de calcio‑álcali": {
+    "code": "NR-ENDOC-003",
+    "label": "Síndrome de calcio‑álcali",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "consumo excesivo de calcio": {
+    "code": "NR-ENDOC-004",
+    "label": "Consumo excesivo de calcio",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome hipocalciurótico familiar": {
+    "code": "NR-ENDOC-005",
+    "label": "Síndrome hipocalciurótico familiar",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "rta distal": {
+    "code": "NR-REN-002",
+    "label": "RTA distal",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "deficiencia de cyp24a1": {
+    "code": "NR-ENDOC-006",
+    "label": "Deficiencia de CYP24A1",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome mixto del tejido conectivo": {
+    "code": "NR-OTR-006",
+    "label": "Síndrome mixto del tejido conectivo",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de tejido conectivo mixto": {
+    "code": "NR-OTR-007",
+    "label": "Síndrome de tejido conectivo mixto",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "hiperinsulinismo asociado a teratoma sacrococcígeo": {
+    "code": "NR-ENDOC-007",
+    "label": "Hiperinsulinismo asociado a teratoma sacrococcígeo",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "angiitis cerebral primaria": {
+    "code": "NR-NEUR-004",
+    "label": "Angiitis cerebral primaria",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "neuro‑sle": {
+    "code": "NR-NEUR-005",
+    "label": "Neuro‑SLE",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía por cvid": {
+    "code": "NR-GAST-003",
+    "label": "Enteropatía por CVID",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía asociada a deficiencia variable común de inmunoglobulinas": {
+    "code": "NR-GAST-004",
+    "label": "Enteropatía asociada a deficiencia variable común de inmunoglobulinas",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía infecciosa crónica": {
+    "code": "NR-INFEC-002",
+    "label": "Enteropatía infecciosa crónica",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑nmdar": {
+    "code": "NR-NEUR-006",
+    "label": "Encefalitis anti‑NMDAR",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalopatía autoinmune por anticuerpos contra gaba‑b o ampa": {
+    "code": "NR-NEUR-007",
+    "label": "Encefalopatía autoinmune por anticuerpos contra GABA‑B o AMPA",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑lgi1/anti‑caspr2": {
+    "code": "NR-NEUR-008",
+    "label": "Encefalitis anti‑LGI1/anti‑CASPR2",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome neurolítico autoinmune": {
+    "code": "NR-NEUR-009",
+    "label": "Síndrome neurolítico autoinmune",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "linfoma de células b plasmocitos": {
+    "code": "NR-ONCOL-001",
+    "label": "Linfoma de células B plasmocitos",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑lgi1": {
+    "code": "NR-NEUR-010",
+    "label": "Encefalitis anti‑LGI1",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "necrólisis cutánea por warfarina o itp": {
+    "code": "NR-DERM-001",
+    "label": "Necrólisis cutánea por warfarina o ITP",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "vasculitis cutánea asociada a covid‑19": {
+    "code": "NR-DERM-002",
+    "label": "Vasculitis cutánea asociada a COVID‑19",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de castleman": {
+    "code": "NR-HEMAT-007",
+    "label": "Síndrome de Castleman",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "trastorno depresivo mayor posparto con ansiedad": {
+    "code": "NR-OTR-008",
+    "label": "Trastorno depresivo mayor posparto con ansiedad",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "trastorno de adaptación con ansiedad posparto": {
+    "code": "NR-OTR-009",
+    "label": "Trastorno de adaptación con ansiedad posparto",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "trastorno de estrés posttraumático posparto": {
+    "code": "NR-OTR-010",
+    "label": "Trastorno de estrés posttraumático posparto",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "respuesta inflamatoria sistémica grave": {
+    "code": "NR-OTR-011",
+    "label": "Respuesta inflamatoria sistémica grave",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "dermatitis neutrofílica inducida por fármacos": {
+    "code": "NR-DERM-003",
+    "label": "Dermatitis neutrofílica inducida por fármacos",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de respuesta inflamatoria sistémica": {
+    "code": "NR-OTR-012",
+    "label": "Síndrome de respuesta inflamatoria sistémica",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "trombo séptico de vena renal": {
+    "code": "NR-REN-003",
+    "label": "Trombo séptico de vena renal",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "infección por streptococcus anginosus": {
+    "code": "NR-INFEC-003",
+    "label": "Infección por Streptococcus anginosus",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "pieloflebitis": {
+    "code": "NR-RESP-001",
+    "label": "Pieloflebitis",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "sepsis asociada a vih": {
+    "code": "NR-INFEC-004",
+    "label": "Sepsis asociada a VIH",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "tumor granulo‑celular juvenil": {
+    "code": "NR-ONCOL-002",
+    "label": "Tumor granulo‑celular juvenil",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "neoplasias estrogénicas": {
+    "code": "NR-ONCOL-003",
+    "label": "Neoplasias estrogénicas",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "hiperplasia poliquística ovárica": {
+    "code": "NR-ENDOC-008",
+    "label": "Hiperplasia poliquística ovárica",
+    "category": "endocrino",
+    "first_seen": "2026-06-10"
+  },
+  "pneumonía viral grave": {
+    "code": "NR-RESP-002",
+    "label": "Pneumonía viral grave",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "neumonía por bacterias gram‑negativas": {
+    "code": "NR-RESP-003",
+    "label": "Neumonía por bacterias gram‑negativas",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "neumonía por sars‑cov‑2": {
+    "code": "NR-RESP-004",
+    "label": "Neumonía por SARS‑CoV‑2",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "enfermedad intersticial idiopática": {
+    "code": "NR-RESP-005",
+    "label": "Enfermedad intersticial idiopática",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "macroglocharoma": {
+    "code": "NR-DERM-004",
+    "label": "Macroglocharoma",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "sepsis pulmonar gram‑negativa": {
+    "code": "NR-INFEC-005",
+    "label": "Sepsis pulmonar gram‑negativa",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "trastorno del metabolismo de la vía de la urea": {
+    "code": "NR-OTR-013",
+    "label": "Trastorno del metabolismo de la vía de la urea",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "aflojamiento aséptico con pseudotumor": {
+    "code": "NR-MUSC-002",
+    "label": "Aflojamiento aséptico con pseudotumor",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "neuro lyme": {
+    "code": "NR-INFEC-006",
+    "label": "Neuro-Lyme",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "várices ectópicas en la hepático‑yeyunostomía": {
+    "code": "NR-GAST-005",
+    "label": "Várices ectópicas en la hepático‑yeyunostomía",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "varices ectópicas en la anastomosis hepático jejunal": {
+    "code": "NR-GAST-006",
+    "label": "Varices ectópicas en la anastomosis hepático-jejunal",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "angiodiscines ileales": {
+    "code": "NR-GAST-007",
+    "label": "Angiodiscines ileales",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "varices portales": {
+    "code": "NR-GAST-008",
+    "label": "Varices portales",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "sepsis por infección bacteriana hipocéntrica": {
+    "code": "NR-INFEC-007",
+    "label": "Sepsis por infección bacteriana hipocéntrica",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica de la rodilla": {
+    "code": "NR-INFEC-008",
+    "label": "Infección protésica de la rodilla",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "tumor intra articular": {
+    "code": "NR-MUSC-003",
+    "label": "Tumor intra-articular",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "reacción inflamatoria a material de resina": {
+    "code": "NR-DERM-005",
+    "label": "Reacción inflamatoria a material de resina",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "ehrlichiosis granulocítica humana": {
+    "code": "NR-INFEC-009",
+    "label": "Ehrlichiosis granulocítica humana",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica de bajo virulencia": {
+    "code": "NR-INFEC-010",
+    "label": "Infección protésica de bajo virulencia",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "neuroborreliosis": {
+    "code": "NR-NEUR-011",
+    "label": "Neuroborreliosis",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "aflojamiento aséptico": {
+    "code": "NR-MUSC-004",
+    "label": "Aflojamiento aséptico",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "anaplasmosis": {
+    "code": "NR-INFEC-011",
+    "label": "Anaplasmosis",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome inflamatorio de sensibilidades": {
+    "code": "NR-OTR-014",
+    "label": "Síndrome inflamatorio de sensibilidades",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "varices ectópicas": {
+    "code": "NR-CARD-001",
+    "label": "Varices ectópicas",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "colopatía portal": {
+    "code": "NR-GAST-009",
+    "label": "Colopatía portal",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "ruptura de collaterales portosistémicos": {
+    "code": "NR-GAST-010",
+    "label": "Ruptura de collaterales portosistémicos",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "úlcera postoperatoria": {
+    "code": "NR-GAST-011",
+    "label": "Úlcera postoperatoria",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de portusístole biliarvascular": {
+    "code": "NR-GAST-012",
+    "label": "Síndrome de portusístole biliarvascular",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "fibroma osificante juvenil trabecular": {
+    "code": "NR-MUSC-005",
+    "label": "Fibroma osificante juvenil trabecular",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "fibroma osificante juvenil psamomóide": {
+    "code": "NR-MUSC-006",
+    "label": "Fibroma osificante juvenil psamomóide",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "fibroma ossificante juvenil psamomatoide": {
+    "code": "NR-MUSC-007",
+    "label": "Fibroma ossificante juvenil psamomatoide",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "mucela": {
+    "code": "NR-DERM-006",
+    "label": "Mucela",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "carcinoma nasosinusal no diferenciado": {
+    "code": "NR-ONCOL-004",
+    "label": "Carcinoma nasosinusal no diferenciado",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de hht": {
+    "code": "NR-CARD-002",
+    "label": "Síndrome de HHT",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "miocarditis pericárdica post‑covid‑19": {
+    "code": "NR-CARD-003",
+    "label": "Miocarditis pericárdica post‑COVID‑19",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "miocarditis post‑covid": {
+    "code": "NR-CARD-004",
+    "label": "Miocarditis post‑COVID",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "celiquía": {
+    "code": "NR-GAST-013",
+    "label": "Celiquía",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía inducida por preparación de medicina tradicional china": {
+    "code": "NR-GAST-014",
+    "label": "Enteropatía inducida por preparación de medicina tradicional china",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome inflamatorio autoinmune sistémico": {
+    "code": "NR-OTR-015",
+    "label": "Síndrome inflamatorio autoinmune sistémico",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "aplasia aplásica": {
+    "code": "NR-HEMAT-008",
+    "label": "Aplasia aplásica",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía inducida por medicina tradicional china": {
+    "code": "NR-GAST-015",
+    "label": "Enteropatía inducida por medicina tradicional china",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome de celiada": {
+    "code": "NR-GAST-016",
+    "label": "Síndrome de celiada",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "enteropatía asociada a deficiencia de iga": {
+    "code": "NR-GAST-017",
+    "label": "Enteropatía asociada a deficiencia de IgA",
+    "category": "gastrointestinal",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por cutibacterium acnes o staphylococcus epidermidis": {
+    "code": "NR-INFEC-012",
+    "label": "Infección protésica por Cutibacterium acnes o Staphylococcus epidermidis",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "monopatología cutánea": {
+    "code": "NR-DERM-007",
+    "label": "Monopatología cutánea",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "panniculitis vasculítica": {
+    "code": "NR-DERM-008",
+    "label": "Panniculitis vasculítica",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "panniculitis pancreática": {
+    "code": "NR-DERM-009",
+    "label": "Panniculitis pancreática",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "carcinoma de phyllodes": {
+    "code": "NR-ONCOL-005",
+    "label": "Carcinoma de phyllodes",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "carcinoma ductal invasivo": {
+    "code": "NR-ONCOL-006",
+    "label": "Carcinoma ductal invasivo",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica crónica": {
+    "code": "NR-INFEC-013",
+    "label": "Infección protésica crónica",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "sarcoma mamario": {
+    "code": "NR-ONCOL-007",
+    "label": "Sarcoma mamario",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por mycobacterium bovis": {
+    "code": "NR-INFEC-014",
+    "label": "Infección protésica por Mycobacterium bovis",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "tumor o pseudotumor": {
+    "code": "NR-ONCOL-008",
+    "label": "Tumor o pseudotumor",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por staphylococcus epidermidis": {
+    "code": "NR-INFEC-015",
+    "label": "Infección protésica por Staphylococcus epidermidis",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por staphylococcus aureus": {
+    "code": "NR-INFEC-016",
+    "label": "Infección protésica por Staphylococcus aureus",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "carcinoma lobulillar invasivo": {
+    "code": "NR-ONCOL-009",
+    "label": "Carcinoma lobulillar invasivo",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por cutibacterium acnes": {
+    "code": "NR-INFEC-017",
+    "label": "Infección protésica por Cutibacterium acnes",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "tumor de phyllodes": {
+    "code": "NR-ONCOL-010",
+    "label": "Tumor de phyllodes",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por gérmenes gram‑negativos": {
+    "code": "NR-INFEC-018",
+    "label": "Infección protésica por gérmenes gram‑negativos",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "desenclavamiento protésico": {
+    "code": "NR-MUSC-008",
+    "label": "Desenclavamiento protésico",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "neoplasia periarticular": {
+    "code": "NR-MUSC-009",
+    "label": "Neoplasia periarticular",
+    "category": "musculoesquelético",
+    "first_seen": "2026-06-10"
+  },
+  "infección protésica por mycobacterium bovis bcg": {
+    "code": "NR-INFEC-019",
+    "label": "Infección protésica por Mycobacterium bovis BCG",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "trombosis hodológica": {
+    "code": "NR-CARD-005",
+    "label": "Trombosis hodológica",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "abrucción placentaria": {
+    "code": "NR-OTR-016",
+    "label": "Abrucción placentaria",
+    "category": "otro",
+    "first_seen": "2026-06-10"
+  },
+  "klebsiella pneumoniae": {
+    "code": "NR-INFEC-020",
+    "label": "Klebsiella pneumoniae",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "pneumonía granulomatosa crónica": {
+    "code": "NR-RESP-006",
+    "label": "Pneumonía granulomatosa crónica",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  },
+  "estafilococo aureus": {
+    "code": "NR-INFEC-021",
+    "label": "Estafilococo aureus",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "pemfigoide vulgar": {
+    "code": "NR-DERM-010",
+    "label": "Pemfigoide vulgar",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "pityriasis rosea": {
+    "code": "NR-DERM-011",
+    "label": "Pityriasis rosea",
+    "category": "dermatológico",
+    "first_seen": "2026-06-10"
+  },
+  "tumor renino productor de renina": {
+    "code": "NR-REN-004",
+    "label": "Tumor renino productor de renina",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "endocarditis crónica": {
+    "code": "NR-CARD-006",
+    "label": "Endocarditis crónica",
+    "category": "cardiovascular",
+    "first_seen": "2026-06-10"
+  },
+  "hiperplasia renal constructiva con secreción renal": {
+    "code": "NR-REN-005",
+    "label": "Hiperplasia renal constructiva con secreción renal",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "estenosis renal": {
+    "code": "NR-REN-006",
+    "label": "Estenosis renal",
+    "category": "renal",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑caspr2": {
+    "code": "NR-NEUR-012",
+    "label": "Encefalitis anti‑CASPR2",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑mog": {
+    "code": "NR-NEUR-013",
+    "label": "Encefalitis anti‑MOG",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti‑gaba_b receptor": {
+    "code": "NR-NEUR-014",
+    "label": "Encefalitis anti‑GABA_B receptor",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti nmdar": {
+    "code": "NR-NEUR-015",
+    "label": "Encefalitis anti-NMDAR",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "encefalitis anti ampar/anti caspr2": {
+    "code": "NR-NEUR-016",
+    "label": "Encefalitis anti-AMPAR/anti-CASPR2",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "parvovirus b19": {
+    "code": "NR-INFEC-022",
+    "label": "Parvovirus B19",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "lissencefalia": {
+    "code": "NR-NEUR-017",
+    "label": "Lissencefalia",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome del encefalocriptocarpio (zika) y trastornos genéticos de lisencefalia": {
+    "code": "NR-NEUR-018",
+    "label": "Síndrome del encefalocriptocarpio (Zika) y trastornos genéticos de lisencefalia",
+    "category": "neurológico",
+    "first_seen": "2026-06-10"
+  },
+  "sepsis por bacterias gram‑negativas": {
+    "code": "NR-INFEC-023",
+    "label": "Sepsis por bacterias gram‑negativas",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "reacción hemolítica transfusional": {
+    "code": "NR-HEMAT-009",
+    "label": "Reacción hemolítica transfusional",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "reacción transfusional hemolítica": {
+    "code": "NR-HEMAT-010",
+    "label": "Reacción transfusional hemolítica",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "trombosis microangiopática asociada a neoplasia": {
+    "code": "NR-HEMAT-011",
+    "label": "Trombosis microangiopática asociada a neoplasia",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "mycobacterium avium complejo": {
+    "code": "NR-INFEC-024",
+    "label": "Mycobacterium avium complejo",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome ttp adquirido": {
+    "code": "NR-HEMAT-012",
+    "label": "Síndrome TTP adquirido",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "síndrome hemolítico‑trombopénico": {
+    "code": "NR-HEMAT-013",
+    "label": "Síndrome hemolítico‑trombopénico",
+    "category": "hematológico",
+    "first_seen": "2026-06-10"
+  },
+  "carcinoma bronquiolo alveolar": {
+    "code": "NR-ONCOL-011",
+    "label": "Carcinoma bronquiolo-alveolar",
+    "category": "oncológico",
+    "first_seen": "2026-06-10"
+  },
+  "pneumonía bacteriana": {
+    "code": "NR-INFEC-025",
+    "label": "Pneumonía bacteriana",
+    "category": "infeccioso",
+    "first_seen": "2026-06-10"
+  },
+  "necrólisis pulmonar mucosa": {
+    "code": "NR-RESP-007",
+    "label": "Necrólisis pulmonar mucosa",
+    "category": "respiratorio",
+    "first_seen": "2026-06-10"
+  }
+}
