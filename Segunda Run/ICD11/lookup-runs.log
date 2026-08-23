@@ -1,6 +1,6 @@
 
 ##############################################################################
-# SESSION START  2026-08-19 22:05:12
+# SESSION START  2026-08-23 09:11:07
 #-----------------------------------------------------------------------------
 #   phase            : reverse lookup + consistency
 #   icd version      : ICD-11
@@ -24,9 +24,9 @@
 
 ==============================================================================
 = RUN 1/10  ·  dataset-run1.csv
-= started 2026-08-19 22:05:13
+= started 2026-08-23 09:11:08
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -53,9 +53,9 @@
 
 ==============================================================================
 = RUN 2/10  ·  dataset-run2.csv
-= started 2026-08-19 22:06:44
+= started 2026-08-23 09:12:25
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -67,24 +67,24 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (WHO API)         : 175    (87.1%)
-  NF (local dictionary)      : 26          (12.9%)
+  Resolved (WHO API)         : 174    (86.6%)
+  NF (local dictionary)      : 27          (13.4%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 175
-  Consistent    (yes)        : 164 (93.7%)
+  Evaluated by the LLM       : 174
+  Consistent    (yes)        : 163 (93.7%)
   Inconsistent  (no)         : 11  (6.3%)
-  Skipped for being NF       : 26 (use --eval-nf to include them)
+  Skipped for being NF       : 27 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 3/10  ·  dataset-run3.csv
-= started 2026-08-19 22:08:06
+= started 2026-08-23 09:13:47
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -96,24 +96,24 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (WHO API)         : 175    (87.1%)
-  NF (local dictionary)      : 26          (12.9%)
+  Resolved (WHO API)         : 173    (86.1%)
+  NF (local dictionary)      : 28          (13.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 175
-  Consistent    (yes)        : 164 (93.7%)
-  Inconsistent  (no)         : 11  (6.3%)
-  Skipped for being NF       : 26 (use --eval-nf to include them)
+  Evaluated by the LLM       : 173
+  Consistent    (yes)        : 162 (93.6%)
+  Inconsistent  (no)         : 11  (6.4%)
+  Skipped for being NF       : 28 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 4/10  ·  dataset-run4.csv
-= started 2026-08-19 22:09:27
+= started 2026-08-23 09:15:05
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -125,24 +125,24 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (WHO API)         : 175    (87.1%)
-  NF (local dictionary)      : 26          (12.9%)
+  Resolved (WHO API)         : 174    (86.6%)
+  NF (local dictionary)      : 27          (13.4%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 175
-  Consistent    (yes)        : 164 (93.7%)
+  Evaluated by the LLM       : 174
+  Consistent    (yes)        : 163 (93.7%)
   Inconsistent  (no)         : 11  (6.3%)
-  Skipped for being NF       : 26 (use --eval-nf to include them)
+  Skipped for being NF       : 27 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 5/10  ·  dataset-run5.csv
-= started 2026-08-19 22:10:47
+= started 2026-08-23 09:16:26
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -169,9 +169,9 @@
 
 ==============================================================================
 = RUN 6/10  ·  dataset-run6.csv
-= started 2026-08-19 22:12:10
+= started 2026-08-23 09:17:45
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -183,24 +183,24 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (WHO API)         : 174    (86.6%)
-  NF (local dictionary)      : 27          (13.4%)
+  Resolved (WHO API)         : 175    (87.1%)
+  NF (local dictionary)      : 26          (12.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 174
-  Consistent    (yes)        : 163 (93.7%)
-  Inconsistent  (no)         : 11  (6.3%)
-  Skipped for being NF       : 27 (use --eval-nf to include them)
+  Evaluated by the LLM       : 175
+  Consistent    (yes)        : 165 (94.3%)
+  Inconsistent  (no)         : 10  (5.7%)
+  Skipped for being NF       : 26 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 7/10  ·  dataset-run7.csv
-= started 2026-08-19 22:13:32
+= started 2026-08-23 09:19:07
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -212,6 +212,35 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
+  Resolved (WHO API)         : 173    (86.1%)
+  NF (local dictionary)      : 28          (13.9%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd11_lookup ────────────
+  Evaluated by the LLM       : 173
+  Consistent    (yes)        : 162 (93.6%)
+  Inconsistent  (no)         : 11  (6.4%)
+  Skipped for being NF       : 28 (use --eval-nf to include them)
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 8/10  ·  dataset-run8.csv
+= started 2026-08-23 09:20:27
+==============================================================================
+[NF]  Dictionary loaded: 28 codes
+
+[CSV] 201 rows | 201 with icd11_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run8.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
   Resolved (WHO API)         : 174    (86.6%)
   NF (local dictionary)      : 27          (13.4%)
   Unresolved                 : 0 (0.0%)
@@ -226,39 +255,10 @@
 
 
 ==============================================================================
-= RUN 8/10  ·  dataset-run8.csv
-= started 2026-08-19 22:14:54
-==============================================================================
-[NF]  Dictionary loaded: 27 codes
-
-[CSV] 201 rows | 201 with icd11_code | 201 to resolve
-
-
-[LLM] 201 rows to evaluate
-
-
-[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run8.csv
-
-── Reverse lookup statistics ───────────────────────────
-  Processed                  : 201
-  Resolved (WHO API)         : 176    (87.6%)
-  NF (local dictionary)      : 25          (12.4%)
-  Unresolved                 : 0 (0.0%)
-────────────────────────────────────────────────────────
-
-── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 176
-  Consistent    (yes)        : 165 (93.8%)
-  Inconsistent  (no)         : 11  (6.2%)
-  Skipped for being NF       : 25 (use --eval-nf to include them)
-────────────────────────────────────────────────────────
-
-
-==============================================================================
 = RUN 9/10  ·  dataset-run9.csv
-= started 2026-08-19 22:16:15
+= started 2026-08-23 09:21:47
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -270,24 +270,24 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (WHO API)         : 175    (87.1%)
-  NF (local dictionary)      : 26          (12.9%)
+  Resolved (WHO API)         : 174    (86.6%)
+  NF (local dictionary)      : 27          (13.4%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd11_lookup ────────────
-  Evaluated by the LLM       : 175
-  Consistent    (yes)        : 164 (93.7%)
+  Evaluated by the LLM       : 174
+  Consistent    (yes)        : 163 (93.7%)
   Inconsistent  (no)         : 11  (6.3%)
-  Skipped for being NF       : 26 (use --eval-nf to include them)
+  Skipped for being NF       : 27 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 10/10  ·  dataset-run10.csv
-= started 2026-08-19 22:17:35
+= started 2026-08-23 09:23:10
 ==============================================================================
-[NF]  Dictionary loaded: 27 codes
+[NF]  Dictionary loaded: 28 codes
 
 [CSV] 201 rows | 201 with icd11_code | 201 to resolve
 
@@ -312,5 +312,5 @@
 ────────────────────────────────────────────────────────
 
 
-[session closed 2026-08-19 22:18:24]
+[session closed 2026-08-23 09:24:19]
 

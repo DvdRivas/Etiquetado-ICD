@@ -7,6 +7,16 @@ Produces:
   - deep_analysis_report.json: raw numbers
   - unstable_cases.csv: unstable diagnoses for manual review
 
+Sections:
+  1 Loading and validation      5 match_type distribution
+  2 Aggregate metrics per run   6 Cumulative NF dictionary effect
+  3 Row-level stability         7 Agreement at two levels of the hierarchy
+  4 LLM judge variance          8 Hierarchical depth vs instability
+
+Parts 7 and 8 read columns that icd-experiment.py started writing later
+(icd_code_complete, category, hierarchical_distance). Against older CSVs they
+report that they were skipped instead of failing.
+
 The script is ICD-version agnostic: it detects whether the CSVs carry
 `icd11_code` or `icd10_code` and adapts, so the same file works unchanged in
 the ICD11 and ICD10 folders.
@@ -563,6 +573,126 @@ def analyze_nf_drift(code_matrix: pd.DataFrame) -> dict:
     }
 
 
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PART 7 — Agreement at two levels of the hierarchy
+# ═══════════════════════════════════════════════════════════════════════════
+
+def build_column_matrix(runs: dict[int, pd.DataFrame], column: str) -> pd.DataFrame | None:
+    """filename x run matrix for any column, or None when it is absent."""
+    frames = []
+    for i, df in sorted(runs.items()):
+        if column not in df.columns:
+            return None
+        frames.append(df.set_index("filename")[column].rename(f"run{i}"))
+    return pd.concat(frames, axis=1)
+
+
+def analyze_level_agreement(runs: dict[int, pd.DataFrame]) -> dict | None:
+    """
+    Separate DISAGREEING ON THE SUBCODE from DISAGREEING ON THE CATEGORY.
+
+    Part 3 counts a row as unstable whenever the runs differ, but the two
+    kinds of difference are not equally serious. Landing on C22.0 in one run
+    and C22.1 in another still places the case in the same category (C22,
+    malignant neoplasm of liver); landing on C22 versus K75 does not. Only
+    the second is a classification error in the sense that matters, because
+    `category` is what the pipeline actually reports.
+
+    Requires `icd_code_complete` and `category`; returns None when the CSVs
+    predate them.
+    """
+    full_matrix = build_column_matrix(runs, "icd_code_complete")
+    cat_matrix  = build_column_matrix(runs, "category")
+    if full_matrix is None or cat_matrix is None:
+        return None
+
+    buckets = {
+        "stable_both":        [],   # same subcode in every run
+        "subcode_only":       [],   # subcode varies, category holds
+        "category_disagree":  [],   # category itself varies
+    }
+
+    for fname in full_matrix.index:
+        full_vals = [v for v in full_matrix.loc[fname].tolist() if isinstance(v, str) and v]
+        cat_vals  = [v for v in cat_matrix.loc[fname].tolist() if isinstance(v, str) and v]
+        if not full_vals or not cat_vals:
+            continue
+
+        n_full = len(set(full_vals))
+        n_cat  = len(set(cat_vals))
+
+        if n_cat > 1:
+            bucket = "category_disagree"
+        elif n_full > 1:
+            bucket = "subcode_only"
+        else:
+            bucket = "stable_both"
+
+        buckets[bucket].append({
+            "filename":       fname,
+            "codes":          dict(Counter(full_vals)),
+            "categories":     dict(Counter(cat_vals)),
+            "n_unique_code":  n_full,
+            "n_unique_category": n_cat,
+        })
+
+    total = sum(len(v) for v in buckets.values())
+    return {
+        "total":   total,
+        "counts":  {k: len(v) for k, v in buckets.items()},
+        "pct":     {k: (len(v) / total if total else 0.0) for k, v in buckets.items()},
+        "buckets": buckets,
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PART 8 — Hierarchical depth vs instability
+# ═══════════════════════════════════════════════════════════════════════════
+
+def analyze_depth_stability(runs: dict[int, pd.DataFrame],
+                            stability_df: pd.DataFrame) -> dict | None:
+    """
+    Cross `hierarchical_distance` with the Part 3 stability category.
+
+    The question is whether categories sitting deeper in the classification
+    are harder to pin down. Depth is a property of the classification, not of
+    the pipeline — chapter II nests three levels of blocks while chapter I
+    nests one — so if instability tracks depth, the difficulty comes from the
+    terminology rather than from the model.
+
+    Requires `hierarchical_distance`; returns None when the CSVs predate it.
+    """
+    depth_matrix = build_column_matrix(runs, "hierarchical_distance")
+    if depth_matrix is None:
+        return None
+
+    category_of = dict(zip(stability_df["filename"], stability_df["category"]))
+
+    by_depth: dict[str, dict] = {}
+    for fname in depth_matrix.index:
+        values = [v for v in depth_matrix.loc[fname].tolist()
+                  if pd.notna(v) and str(v).strip() != ""]
+        if not values:
+            continue
+        # Modal depth: with a stable category the depth is stable too, so the
+        # mode simply ignores runs where the category changed.
+        depth = str(Counter(str(v).strip() for v in values).most_common(1)[0][0])
+        stability = category_of.get(fname)
+        if stability is None:
+            continue
+
+        entry = by_depth.setdefault(depth, {"total": 0, **{c: 0 for c in CATEGORIES}})
+        entry["total"] += 1
+        entry[stability] += 1
+
+    for entry in by_depth.values():
+        unstable = entry["unstable"] + entry["NF_intermittent"]
+        entry["unstable_pct"] = unstable / entry["total"] if entry["total"] else 0.0
+
+    return {"by_depth": by_depth}
+
+
 # ═══════════════════════════════════════════════════════════════════════════
 # Methodological warnings
 # ═══════════════════════════════════════════════════════════════════════════
@@ -911,6 +1041,89 @@ def print_part6(nf_analysis: dict):
     ))
 
 
+
+def print_part7(level: dict | None):
+    """Print the two-level agreement analysis."""
+    print("\n" + "=" * 76)
+    print("  PART 7 — Agreement at two levels of the hierarchy")
+    print("=" * 76)
+
+    if level is None:
+        print("  Skipped: the CSVs have no icd_code_complete / category columns.")
+        print("  Re-run icd-experiment.py to populate them.")
+        return
+
+    labels = {
+        "stable_both":       "Same subcode in every run",
+        "subcode_only":      "Subcode varies, CATEGORY holds",
+        "category_disagree": "CATEGORY itself varies",
+    }
+    rows = []
+    for key, label in labels.items():
+        rows.append([label, level["counts"][key], f"{level['pct'][key]:.1%}"])
+    print(tabulate(rows, headers=["Outcome", "Cases", "%"], tablefmt="simple"))
+
+    mild = level["counts"]["subcode_only"]
+    if mild:
+        print(f"\n  {mild} case(s) would count as unstable in Part 3 yet agree on")
+        print("  the category the pipeline actually reports:")
+        for rec in level["buckets"]["subcode_only"][:10]:
+            codes = ", ".join(f"{c}({n})" for c, n in
+                              sorted(rec["codes"].items(), key=lambda x: -x[1]))
+            cat = next(iter(rec["categories"]))
+            print(f"    {rec['filename']:<26} {cat:<8} <- {codes}")
+
+    severe = level["counts"]["category_disagree"]
+    if severe:
+        print(f"\n  {severe} case(s) disagree on the category itself:")
+        for rec in level["buckets"]["category_disagree"][:10]:
+            cats = ", ".join(f"{c}({n})" for c, n in
+                             sorted(rec["categories"].items(), key=lambda x: -x[1]))
+            print(f"    {rec['filename']:<26} {cats}")
+
+
+def print_part8(depth: dict | None):
+    """Print the depth vs instability analysis."""
+    print("\n" + "=" * 76)
+    print("  PART 8 — Hierarchical depth vs instability")
+    print("=" * 76)
+
+    if depth is None:
+        print("  Skipped: the CSVs have no hierarchical_distance column.")
+        print("  Re-run icd-experiment.py to populate it.")
+        return
+
+    by_depth = depth["by_depth"]
+    if not by_depth:
+        print("  No usable depth values.")
+        return
+
+    def _sort_key(k: str):
+        try:
+            return (0, int(k))
+        except ValueError:
+            return (1, 0)
+
+    rows = []
+    for key in sorted(by_depth, key=_sort_key):
+        d = by_depth[key]
+        rows.append([
+            key, d["total"],
+            d["stable_consistent"], d["stable_inconsistent"],
+            d["unstable"], d["NF_persistent"], d["NF_intermittent"],
+            f"{d['unstable_pct']:.1%}",
+        ])
+    print(tabulate(
+        rows,
+        headers=["Depth", "Cases", "Stable.Cons", "Stable.Incons",
+                 "Unstable", "NF_perm", "NF_inter", "% unstable"],
+        tablefmt="simple",
+    ))
+    print("\n  Depth counts the levels between the chapter and the category, so it")
+    print("  is a property of the classification, not of the pipeline. Instability")
+    print("  rising with depth would point at the terminology, not at the model.")
+
+
 def print_warnings(warnings: list[str]):
     """Print the methodological warnings."""
     print("\n" + "=" * 76)
@@ -952,6 +1165,8 @@ def export_json(
     match_dist: dict,
     nf_analysis: dict,
     warnings: list[str],
+    level_agreement: dict | None = None,
+    depth_stability: dict | None = None,
 ):
     """Export every raw number to JSON."""
     metrics_ser = {}
@@ -978,6 +1193,14 @@ def export_json(
             "nf_churn_filenames": nf_analysis["nf_churn"],
             "independence_warning": nf_analysis["independence_warning"],
         },
+        "part7_level_agreement": (
+            {"counts": level_agreement["counts"],
+             "pct": level_agreement["pct"],
+             "subcode_only": level_agreement["buckets"]["subcode_only"],
+             "category_disagree": level_agreement["buckets"]["category_disagree"]}
+            if level_agreement else None
+        ),
+        "part8_depth_stability": depth_stability,
         "warnings": warnings,
     }
 
@@ -1086,6 +1309,14 @@ def main():
     nf_analysis = analyze_nf_drift(code_matrix)
     print_part6(nf_analysis)
 
+    # ── PART 7 ──
+    level_agreement = analyze_level_agreement(runs)
+    print_part7(level_agreement)
+
+    # ── PART 8 ──
+    depth_stability = analyze_depth_stability(runs, stability_df)
+    print_part8(depth_stability)
+
     # ── Warnings ──
     warnings = collect_warnings(
         val_warnings, enc_warnings,
@@ -1105,6 +1336,7 @@ def main():
         script_dir / "deep_analysis_report.json",
         all_metrics, agg, stability_summary, stability_results,
         judge_records, match_dist, nf_analysis, warnings,
+        level_agreement, depth_stability,
     )
     export_unstable_csv(script_dir / "unstable_cases.csv", stability_df)
 

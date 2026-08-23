@@ -547,9 +547,26 @@ class WHOClient:
             return "", "", None, ""
 
         def _step(entity: dict) -> str:
-            entity_code = (entity.get("code") or "").strip()
-            kind        = (entity.get("classKind") or "?").strip()
-            return f"{entity_code or '?'}[{kind}]"
+            """
+            Label one level of the chain.
+
+            Chapters and categories carry `code` ("02", "2C12"), but ICD-11
+            BLOCKS do not: their `code` is an empty string and the identifier
+            lives in `codeRange` ("2B70-2C1Z") with `blockId` as a fallback
+            ("BlockL3-2B7"). Reading only `code` rendered every block as "?".
+
+            `codeRange` is the direct analogue of an ICD-10 block code
+            (C00-C97), so preferring it also keeps the two folders' paths
+            comparable.
+            """
+            kind = (entity.get("classKind") or "?").strip()
+            label = (
+                (entity.get("code") or "").strip()
+                or (entity.get("codeRange") or "").strip()
+                or (entity.get("blockId") or "").strip()
+                or "?"
+            )
+            return f"{label}[{kind}]"
 
         chain    = [_step(current)]
         distance = 0
@@ -655,7 +672,11 @@ async def resolve_chapter(who_client: WHOClient, category: str, cache: dict) -> 
         return "NF", "0", ""
 
     entry = cache.get(category)
-    if entry is not None and "hierarchy_path" in entry:
+    # Entries written before `hierarchy_path` existed lack the key; entries
+    # written while blocks resolved to "?" are equally stale. Both are
+    # recomputed rather than served.
+    if (entry is not None and "hierarchy_path" in entry
+            and "?[" not in entry.get("hierarchy_path", "")):
         return (entry.get("chapter_title", ""),
                 str(entry.get("hierarchical_distance", "")),
                 entry.get("hierarchy_path", ""))

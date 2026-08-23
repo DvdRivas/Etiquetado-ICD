@@ -1,6 +1,6 @@
 
 ##############################################################################
-# SESSION START  2026-08-19 22:05:13
+# SESSION START  2026-08-23 09:11:28
 #-----------------------------------------------------------------------------
 #   phase            : reverse lookup + consistency
 #   icd version      : ICD-10
@@ -24,7 +24,7 @@
 
 ==============================================================================
 = RUN 1/10  ·  dataset-run1.csv
-= started 2026-08-19 22:05:14
+= started 2026-08-23 09:11:30
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -38,22 +38,22 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (catalogue)       : 166    (82.6%)
-  NF (local dictionary)      : 35          (17.4%)
+  Resolved (catalogue)       : 165    (82.1%)
+  NF (local dictionary)      : 36          (17.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
-  Evaluated by the LLM       : 166
-  Consistent    (yes)        : 135 (81.3%)
-  Inconsistent  (no)         : 31  (18.7%)
-  Skipped for being NF       : 35 (use --eval-nf to include them)
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 134 (81.2%)
+  Inconsistent  (no)         : 31  (18.8%)
+  Skipped for being NF       : 36 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 2/10  ·  dataset-run2.csv
-= started 2026-08-19 22:06:23
+= started 2026-08-23 09:12:46
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -74,15 +74,15 @@
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
   Evaluated by the LLM       : 164
-  Consistent    (yes)        : 133 (81.1%)
-  Inconsistent  (no)         : 31  (18.9%)
+  Consistent    (yes)        : 134 (81.7%)
+  Inconsistent  (no)         : 30  (18.3%)
   Skipped for being NF       : 37 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 3/10  ·  dataset-run3.csv
-= started 2026-08-19 22:07:41
+= started 2026-08-23 09:14:01
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -111,7 +111,7 @@
 
 ==============================================================================
 = RUN 4/10  ·  dataset-run4.csv
-= started 2026-08-19 22:08:56
+= started 2026-08-23 09:15:17
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -140,7 +140,7 @@
 
 ==============================================================================
 = RUN 5/10  ·  dataset-run5.csv
-= started 2026-08-19 22:10:14
+= started 2026-08-23 09:16:32
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -154,22 +154,22 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (catalogue)       : 166    (82.6%)
-  NF (local dictionary)      : 35          (17.4%)
+  Resolved (catalogue)       : 165    (82.1%)
+  NF (local dictionary)      : 36          (17.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
-  Evaluated by the LLM       : 166
-  Consistent    (yes)        : 135 (81.3%)
-  Inconsistent  (no)         : 31  (18.7%)
-  Skipped for being NF       : 35 (use --eval-nf to include them)
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 134 (81.2%)
+  Inconsistent  (no)         : 31  (18.8%)
+  Skipped for being NF       : 36 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 6/10  ·  dataset-run6.csv
-= started 2026-08-19 22:11:30
+= started 2026-08-23 09:17:46
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -190,15 +190,15 @@
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
   Evaluated by the LLM       : 166
-  Consistent    (yes)        : 135 (81.3%)
-  Inconsistent  (no)         : 31  (18.7%)
+  Consistent    (yes)        : 134 (80.7%)
+  Inconsistent  (no)         : 32  (19.3%)
   Skipped for being NF       : 35 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 7/10  ·  dataset-run7.csv
-= started 2026-08-19 22:12:48
+= started 2026-08-23 09:19:05
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -212,22 +212,22 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (catalogue)       : 166    (82.6%)
-  NF (local dictionary)      : 35          (17.4%)
+  Resolved (catalogue)       : 165    (82.1%)
+  NF (local dictionary)      : 36          (17.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
-  Evaluated by the LLM       : 166
-  Consistent    (yes)        : 134 (80.7%)
-  Inconsistent  (no)         : 32  (19.3%)
-  Skipped for being NF       : 35 (use --eval-nf to include them)
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 134 (81.2%)
+  Inconsistent  (no)         : 31  (18.8%)
+  Skipped for being NF       : 36 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 8/10  ·  dataset-run8.csv
-= started 2026-08-19 22:14:05
+= started 2026-08-23 09:20:21
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -248,15 +248,15 @@
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
   Evaluated by the LLM       : 165
-  Consistent    (yes)        : 134 (81.2%)
-  Inconsistent  (no)         : 31  (18.8%)
+  Consistent    (yes)        : 135 (81.8%)
+  Inconsistent  (no)         : 30  (18.2%)
   Skipped for being NF       : 36 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 9/10  ·  dataset-run9.csv
-= started 2026-08-19 22:15:23
+= started 2026-08-23 09:21:37
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -270,22 +270,22 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (catalogue)       : 164    (81.6%)
-  NF (local dictionary)      : 37          (18.4%)
+  Resolved (catalogue)       : 163    (81.1%)
+  NF (local dictionary)      : 38          (18.9%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
-  Evaluated by the LLM       : 164
-  Consistent    (yes)        : 133 (81.1%)
-  Inconsistent  (no)         : 31  (18.9%)
-  Skipped for being NF       : 37 (use --eval-nf to include them)
+  Evaluated by the LLM       : 163
+  Consistent    (yes)        : 132 (81.0%)
+  Inconsistent  (no)         : 31  (19.0%)
+  Skipped for being NF       : 38 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
 ==============================================================================
 = RUN 10/10  ·  dataset-run10.csv
-= started 2026-08-19 22:16:39
+= started 2026-08-23 09:22:56
 ==============================================================================
 [NF]  Dictionary loaded: 38 codes
 
@@ -299,18 +299,18 @@
 
 ── Reverse lookup statistics ───────────────────────────
   Processed                  : 201
-  Resolved (catalogue)       : 164    (81.6%)
-  NF (local dictionary)      : 37          (18.4%)
+  Resolved (catalogue)       : 166    (82.6%)
+  NF (local dictionary)      : 35          (17.4%)
   Unresolved                 : 0 (0.0%)
 ────────────────────────────────────────────────────────
 
 ── Consistency diagnosis_en vs icd10_lookup ────────────
-  Evaluated by the LLM       : 164
-  Consistent    (yes)        : 132 (80.5%)
-  Inconsistent  (no)         : 32  (19.5%)
-  Skipped for being NF       : 37 (use --eval-nf to include them)
+  Evaluated by the LLM       : 166
+  Consistent    (yes)        : 135 (81.3%)
+  Inconsistent  (no)         : 31  (18.7%)
+  Skipped for being NF       : 35 (use --eval-nf to include them)
 ────────────────────────────────────────────────────────
 
 
-[session closed 2026-08-19 22:17:55]
+[session closed 2026-08-23 09:24:10]
 

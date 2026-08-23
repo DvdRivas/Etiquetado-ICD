@@ -1,198 +1,198 @@
 {
-  "parte2_metrics_per_run": {
+  "part2_metrics_per_run": {
     "1": {
       "total": 201,
-      "resolved": 174,
-      "nf": 27,
-      "yes": 158,
-      "no": 16,
-      "coverage": 0.8656716417910447,
-      "coherence": 0.9080459770114943,
+      "resolved": 165,
+      "nf": 36,
+      "yes": 134,
+      "no": 31,
+      "coverage": 0.8208955223880597,
+      "coherence": 0.8121212121212121,
       "precision_A": 1.0,
-      "recall_A": 0.7860696517412935,
-      "f1_A": 0.8802228412256268,
-      "precision_B": 0.9080459770114943,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8121212121212121,
       "recall_B": 1.0,
-      "f1_B": 0.9518072289156626,
+      "f1_B": 0.8963210702341138,
       "precision_C": 1.0,
-      "recall_C": 0.9080459770114943,
-      "f1_C": 0.9518072289156626
+      "recall_C": 0.8121212121212121,
+      "f1_C": 0.8963210702341138
     },
     "2": {
       "total": 201,
-      "resolved": 174,
-      "nf": 27,
-      "yes": 158,
-      "no": 16,
-      "coverage": 0.8656716417910447,
-      "coherence": 0.9080459770114943,
+      "resolved": 164,
+      "nf": 37,
+      "yes": 134,
+      "no": 30,
+      "coverage": 0.8159203980099502,
+      "coherence": 0.8170731707317073,
       "precision_A": 1.0,
-      "recall_A": 0.7860696517412935,
-      "f1_A": 0.8802228412256268,
-      "precision_B": 0.9080459770114943,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8170731707317073,
       "recall_B": 1.0,
-      "f1_B": 0.9518072289156626,
+      "f1_B": 0.8993288590604027,
       "precision_C": 1.0,
-      "recall_C": 0.9080459770114943,
-      "f1_C": 0.9518072289156626
+      "recall_C": 0.8170731707317073,
+      "f1_C": 0.8993288590604027
     },
     "3": {
       "total": 201,
-      "resolved": 175,
-      "nf": 26,
-      "yes": 160,
-      "no": 15,
-      "coverage": 0.8706467661691543,
-      "coherence": 0.9142857142857143,
+      "resolved": 165,
+      "nf": 36,
+      "yes": 134,
+      "no": 31,
+      "coverage": 0.8208955223880597,
+      "coherence": 0.8121212121212121,
       "precision_A": 1.0,
-      "recall_A": 0.7960199004975125,
-      "f1_A": 0.886426592797784,
-      "precision_B": 0.9142857142857143,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8121212121212121,
       "recall_B": 1.0,
-      "f1_B": 0.955223880597015,
+      "f1_B": 0.8963210702341138,
       "precision_C": 1.0,
-      "recall_C": 0.9142857142857143,
-      "f1_C": 0.955223880597015
+      "recall_C": 0.8121212121212121,
+      "f1_C": 0.8963210702341138
     },
     "4": {
       "total": 201,
-      "resolved": 173,
-      "nf": 28,
-      "yes": 157,
-      "no": 16,
-      "coverage": 0.8606965174129353,
-      "coherence": 0.9075144508670521,
+      "resolved": 166,
+      "nf": 35,
+      "yes": 135,
+      "no": 31,
+      "coverage": 0.8258706467661692,
+      "coherence": 0.8132530120481928,
       "precision_A": 1.0,
-      "recall_A": 0.7810945273631841,
-      "f1_A": 0.877094972067039,
-      "precision_B": 0.9075144508670521,
+      "recall_A": 0.6716417910447762,
+      "f1_A": 0.8035714285714287,
+      "precision_B": 0.8132530120481928,
       "recall_B": 1.0,
-      "f1_B": 0.9515151515151515,
+      "f1_B": 0.8970099667774087,
       "precision_C": 1.0,
-      "recall_C": 0.9075144508670521,
-      "f1_C": 0.9515151515151515
+      "recall_C": 0.8132530120481928,
+      "f1_C": 0.8970099667774087
     },
     "5": {
       "total": 201,
-      "resolved": 173,
-      "nf": 28,
-      "yes": 158,
-      "no": 15,
-      "coverage": 0.8606965174129353,
-      "coherence": 0.9132947976878613,
+      "resolved": 165,
+      "nf": 36,
+      "yes": 134,
+      "no": 31,
+      "coverage": 0.8208955223880597,
+      "coherence": 0.8121212121212121,
       "precision_A": 1.0,
-      "recall_A": 0.7860696517412935,
-      "f1_A": 0.8802228412256268,
-      "precision_B": 0.9132947976878613,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8121212121212121,
       "recall_B": 1.0,
-      "f1_B": 0.9546827794561934,
+      "f1_B": 0.8963210702341138,
       "precision_C": 1.0,
-      "recall_C": 0.9132947976878613,
-      "f1_C": 0.9546827794561934
+      "recall_C": 0.8121212121212121,
+      "f1_C": 0.8963210702341138
     },
     "6": {
       "total": 201,
-      "resolved": 175,
-      "nf": 26,
-      "yes": 159,
-      "no": 16,
-      "coverage": 0.8706467661691543,
-      "coherence": 0.9085714285714286,
+      "resolved": 166,
+      "nf": 35,
+      "yes": 134,
+      "no": 32,
+      "coverage": 0.8258706467661692,
+      "coherence": 0.8072289156626506,
       "precision_A": 1.0,
-      "recall_A": 0.7910447761194029,
-      "f1_A": 0.8833333333333333,
-      "precision_B": 0.9085714285714286,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8072289156626506,
       "recall_B": 1.0,
-      "f1_B": 0.9520958083832335,
+      "f1_B": 0.8933333333333333,
       "precision_C": 1.0,
-      "recall_C": 0.9085714285714286,
-      "f1_C": 0.9520958083832335
+      "recall_C": 0.8072289156626506,
+      "f1_C": 0.8933333333333333
     },
     "7": {
       "total": 201,
-      "resolved": 174,
-      "nf": 27,
-      "yes": 158,
-      "no": 16,
-      "coverage": 0.8656716417910447,
-      "coherence": 0.9080459770114943,
+      "resolved": 165,
+      "nf": 36,
+      "yes": 134,
+      "no": 31,
+      "coverage": 0.8208955223880597,
+      "coherence": 0.8121212121212121,
       "precision_A": 1.0,
-      "recall_A": 0.7860696517412935,
-      "f1_A": 0.8802228412256268,
-      "precision_B": 0.9080459770114943,
+      "recall_A": 0.6666666666666666,
+      "f1_A": 0.8,
+      "precision_B": 0.8121212121212121,
       "recall_B": 1.0,
-      "f1_B": 0.9518072289156626,
+      "f1_B": 0.8963210702341138,
       "precision_C": 1.0,
-      "recall_C": 0.9080459770114943,
-      "f1_C": 0.9518072289156626
+      "recall_C": 0.8121212121212121,
+      "f1_C": 0.8963210702341138
     },
     "8": {
       "total": 201,
-      "resolved": 175,
-      "nf": 26,
-      "yes": 160,
-      "no": 15,
-      "coverage": 0.8706467661691543,
-      "coherence": 0.9142857142857143,
+      "resolved": 165,
+      "nf": 36,
+      "yes": 135,
+      "no": 30,
+      "coverage": 0.8208955223880597,
+      "coherence": 0.8181818181818182,
       "precision_A": 1.0,
-      "recall_A": 0.7960199004975125,
-      "f1_A": 0.886426592797784,
-      "precision_B": 0.9142857142857143,
+      "recall_A": 0.6716417910447762,
+      "f1_A": 0.8035714285714287,
+      "precision_B": 0.8181818181818182,
       "recall_B": 1.0,
-      "f1_B": 0.955223880597015,
+      "f1_B": 0.9,
       "precision_C": 1.0,
-      "recall_C": 0.9142857142857143,
-      "f1_C": 0.955223880597015
+      "recall_C": 0.8181818181818182,
+      "f1_C": 0.9
     },
     "9": {
       "total": 201,
-      "resolved": 174,
-      "nf": 27,
-      "yes": 159,
-      "no": 15,
-      "coverage": 0.8656716417910447,
-      "coherence": 0.9137931034482759,
+      "resolved": 163,
+      "nf": 38,
+      "yes": 132,
+      "no": 31,
+      "coverage": 0.8109452736318408,
+      "coherence": 0.8098159509202454,
       "precision_A": 1.0,
-      "recall_A": 0.7910447761194029,
-      "f1_A": 0.8833333333333333,
-      "precision_B": 0.9137931034482759,
+      "recall_A": 0.6567164179104478,
+      "f1_A": 0.7927927927927928,
+      "precision_B": 0.8098159509202454,
       "recall_B": 1.0,
-      "f1_B": 0.9549549549549551,
+      "f1_B": 0.8949152542372881,
       "precision_C": 1.0,
-      "recall_C": 0.9137931034482759,
-      "f1_C": 0.9549549549549551
+      "recall_C": 0.8098159509202454,
+      "f1_C": 0.8949152542372881
     },
     "10": {
       "total": 201,
-      "resolved": 174,
-      "nf": 27,
-      "yes": 158,
-      "no": 16,
-      "coverage": 0.8656716417910447,
-      "coherence": 0.9080459770114943,
+      "resolved": 166,
+      "nf": 35,
+      "yes": 135,
+      "no": 31,
+      "coverage": 0.8258706467661692,
+      "coherence": 0.8132530120481928,
       "precision_A": 1.0,
-      "recall_A": 0.7860696517412935,
-      "f1_A": 0.8802228412256268,
-      "precision_B": 0.9080459770114943,
+      "recall_A": 0.6716417910447762,
+      "f1_A": 0.8035714285714287,
+      "precision_B": 0.8132530120481928,
       "recall_B": 1.0,
-      "f1_B": 0.9518072289156626,
+      "f1_B": 0.8970099667774087,
       "precision_C": 1.0,
-      "recall_C": 0.9080459770114943,
-      "f1_C": 0.9518072289156626
+      "recall_C": 0.8132530120481928,
+      "f1_C": 0.8970099667774087
     }
   },
-  "parte2_aggregate": {
+  "part2_aggregate": {
     "coverage": {
-      "mean": 0.8661691542288559,
-      "std": 0.003670969091406107,
-      "ci95_lo": 0.8635432835820896,
-      "ci95_hi": 0.8687950248756221
+      "mean": 0.8208955223880597,
+      "std": 0.00469059224667695,
+      "ci95_lo": 0.8175403079501794,
+      "ci95_hi": 0.8242507368259401
     },
     "coherence": {
-      "mean": 0.9103929117192022,
-      "std": 0.0030537011684767822,
-      "ci95_lo": 0.9082085772661906,
-      "ci95_hi": 0.9125772461722138
+      "mean": 0.8127290728077655,
+      "std": 0.003151166093720138,
+      "ci95_lo": 0.810475020991324,
+      "ci95_hi": 0.8149831246242071
     },
     "precision_A": {
       "mean": 1.0,
@@ -201,22 +201,22 @@
       "ci95_hi": 1.0
     },
     "recall_A": {
-      "mean": 0.7885572139303483,
-      "std": 0.004834951819938076,
-      "ci95_lo": 0.7850987380493538,
-      "ci95_hi": 0.7920156898113427
+      "mean": 0.6671641791044777,
+      "std": 0.004356194207815506,
+      "ci95_lo": 0.6640481619937114,
+      "ci95_hi": 0.6702801962152439
     },
     "f1_A": {
-      "mean": 0.8817729030457407,
-      "std": 0.003019934481515012,
-      "ci95_lo": 0.8796127221472604,
-      "ci95_hi": 0.8839330839442211
+      "mean": 0.8003507078507079,
+      "std": 0.003144292569872342,
+      "ci95_lo": 0.7981015727154104,
+      "ci95_hi": 0.8025998429860055
     },
     "precision_B": {
-      "mean": 0.9103929117192022,
-      "std": 0.0030537011684767822,
-      "ci95_lo": 0.9082085772661906,
-      "ci95_hi": 0.9125772461722138
+      "mean": 0.8127290728077655,
+      "std": 0.003151166093720138,
+      "ci95_lo": 0.810475020991324,
+      "ci95_hi": 0.8149831246242071
     },
     "recall_B": {
       "mean": 1.0,
@@ -225,10 +225,10 @@
       "ci95_hi": 1.0
     },
     "f1_B": {
-      "mean": 0.9530925371166215,
-      "std": 0.0016724035649141138,
-      "ci95_lo": 0.9518962547940772,
-      "ci95_hi": 0.9542888194391657
+      "mean": 0.8966881661122297,
+      "std": 0.0019173410786966654,
+      "ci95_lo": 0.8953166782208783,
+      "ci95_hi": 0.898059654003581
     },
     "precision_C": {
       "mean": 1.0,
@@ -237,66 +237,80 @@
       "ci95_hi": 1.0
     },
     "recall_C": {
-      "mean": 0.9103929117192022,
-      "std": 0.0030537011684767822,
-      "ci95_lo": 0.9082085772661906,
-      "ci95_hi": 0.9125772461722138
+      "mean": 0.8127290728077655,
+      "std": 0.003151166093720138,
+      "ci95_lo": 0.810475020991324,
+      "ci95_hi": 0.8149831246242071
     },
     "f1_C": {
-      "mean": 0.9530925371166215,
-      "std": 0.0016724035649141138,
-      "ci95_lo": 0.9518962547940772,
-      "ci95_hi": 0.9542888194391657
+      "mean": 0.8966881661122297,
+      "std": 0.0019173410786966654,
+      "ci95_lo": 0.8953166782208783,
+      "ci95_hi": 0.898059654003581
     }
   },
-  "parte3_stability_summary": {
-    "estable_consistente": {
-      "count": 154,
-      "pct": 0.7661691542288557
+  "part3_stability_summary": {
+    "stable_consistent": {
+      "count": 131,
+      "pct": 0.6517412935323383
     },
-    "estable_inconsistente": {
-      "count": 16,
-      "pct": 0.07960199004975124
+    "stable_inconsistent": {
+      "count": 30,
+      "pct": 0.14925373134328357
     },
-    "inestable": {
+    "unstable": {
       "count": 2,
       "pct": 0.009950248756218905
     },
-    "NF_persistente": {
-      "count": 25,
-      "pct": 0.12437810945273632
+    "NF_persistent": {
+      "count": 35,
+      "pct": 0.17412935323383086
     },
-    "NF_intermitente": {
-      "count": 4,
-      "pct": 0.01990049751243781
+    "NF_intermittent": {
+      "count": 3,
+      "pct": 0.014925373134328358
     }
   },
-  "parte3_deterministic_violations": [],
-  "parte4_judge_variance": [
+  "part3_deterministic_violations": [
     {
-      "filename": "NEJMcpc2412521.pdf",
-      "diagnosis_es": "Reninoma",
-      "icd11_code": "2F98&XA6KU8",
-      "n_yes": 4,
-      "n_no": 6,
-      "n_eval": 10,
-      "pct_yes": 0.4,
-      "consistency_detail": {
-        "run1": "no",
-        "run2": "no",
-        "run3": "yes",
-        "run4": "no",
-        "run5": "yes",
-        "run6": "no",
-        "run7": "no",
-        "run8": "yes",
-        "run9": "yes",
-        "run10": "no"
+      "filename": "NEJMicm2514525.pdf",
+      "exact_runs_codes": {
+        "run1": "B48",
+        "run3": "B48",
+        "run4": "B48",
+        "run5": "B48",
+        "run6": "B48",
+        "run7": "B48",
+        "run9": "B48",
+        "run10": "B48"
+      },
+      "all_codes": {
+        "B48": 8,
+        "B20": 2
       }
     }
   ],
-  "parte5_match_type_distribution": {
+  "part4_judge_variance": [],
+  "part5_match_type_distribution": {
     "aggregate": {
+      "catalog_exact_complete": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1,
+        "max": 1
+      },
+      "catalog_exact_core": {
+        "mean": 30.6,
+        "std": 0.8432740427115678,
+        "min": 29,
+        "max": 32
+      },
+      "catalog_search": {
+        "mean": 64.3,
+        "std": 1.567021236472421,
+        "min": 61,
+        "max": 66
+      },
       "exact_complete": {
         "mean": 5.0,
         "std": 0.0,
@@ -304,96 +318,282 @@
         "max": 5
       },
       "exact_core": {
-        "mean": 54.7,
-        "std": 0.6749485577105528,
-        "min": 54,
-        "max": 56
+        "mean": 58.6,
+        "std": 0.5163977794943222,
+        "min": 58,
+        "max": 59
       },
       "fuzzy_complete": {
-        "mean": 1.0,
+        "mean": 2.0,
         "std": 0.0,
-        "min": 1,
-        "max": 1
+        "min": 2,
+        "max": 2
       },
       "fuzzy_core": {
-        "mean": 6.4,
-        "std": 0.5163977794943222,
-        "min": 6,
-        "max": 7
+        "mean": 3.5,
+        "std": 0.7071067811865476,
+        "min": 3,
+        "max": 5
       },
       "nf": {
-        "mean": 26.9,
-        "std": 0.7378647873726218,
-        "min": 26,
-        "max": 28
-      },
-      "who_search": {
-        "mean": 107.0,
-        "std": 1.247219128924647,
-        "min": 105,
-        "max": 109
+        "mean": 36.0,
+        "std": 0.9428090415820634,
+        "min": 35,
+        "max": 38
       }
     },
     "early_vs_late": {
+      "catalog_exact_complete": {
+        "early_mean": 1.0,
+        "late_mean": 1.0,
+        "diff": 0.0
+      },
+      "catalog_exact_core": {
+        "early_mean": 30.5,
+        "late_mean": 30.625,
+        "diff": 0.125
+      },
+      "catalog_search": {
+        "early_mean": 64.5,
+        "late_mean": 64.25,
+        "diff": -0.25
+      },
       "exact_complete": {
         "early_mean": 5.0,
         "late_mean": 5.0,
         "diff": 0.0
       },
       "exact_core": {
-        "early_mean": 55.0,
-        "late_mean": 54.625,
-        "diff": -0.375
+        "early_mean": 58.5,
+        "late_mean": 58.625,
+        "diff": 0.125
       },
       "fuzzy_complete": {
-        "early_mean": 1.0,
-        "late_mean": 1.0,
+        "early_mean": 2.0,
+        "late_mean": 2.0,
         "diff": 0.0
       },
       "fuzzy_core": {
-        "early_mean": 6.5,
-        "late_mean": 6.375,
-        "diff": -0.125
+        "early_mean": 3.0,
+        "late_mean": 3.625,
+        "diff": 0.625
       },
       "nf": {
-        "early_mean": 27.0,
-        "late_mean": 26.875,
-        "diff": -0.125
-      },
-      "who_search": {
-        "early_mean": 106.5,
-        "late_mean": 107.125,
-        "diff": 0.625
+        "early_mean": 36.5,
+        "late_mean": 35.875,
+        "diff": -0.625
       }
     }
   },
-  "parte6_nf_analysis": {
+  "part6_nf_analysis": {
     "nf_per_run": {
-      "run1": 27,
-      "run2": 27,
-      "run3": 26,
-      "run4": 28,
-      "run5": 28,
-      "run6": 26,
-      "run7": 27,
-      "run8": 26,
-      "run9": 27,
-      "run10": 27
+      "run1": 36,
+      "run2": 37,
+      "run3": 36,
+      "run4": 35,
+      "run5": 36,
+      "run6": 35,
+      "run7": 36,
+      "run8": 36,
+      "run9": 38,
+      "run10": 35
     },
-    "nf_persistent_count": 25,
-    "nf_any_count": 29,
-    "nf_churn_count": 4,
+    "nf_persistent_count": 35,
+    "nf_any_count": 38,
+    "nf_churn_count": 3,
     "nf_churn_filenames": [
-      "109-NEJMicm2035551.pdf",
-      "112-NEJMcpc2107345.pdf",
-      "NEJMcpc2412511.pdf",
-      "NEJMcpc2513324.pdf"
+      "125-NEJMicm2104358.pdf",
+      "140-NEJMcpc2027096.pdf",
+      "179-NEJMicm2113099.pdf"
     ],
     "independence_warning": true
   },
+  "part7_level_agreement": {
+    "counts": {
+      "stable_both": 191,
+      "subcode_only": 5,
+      "category_disagree": 5
+    },
+    "pct": {
+      "stable_both": 0.9502487562189055,
+      "subcode_only": 0.024875621890547265,
+      "category_disagree": 0.024875621890547265
+    },
+    "subcode_only": [
+      {
+        "filename": "NEJMcpc2513324.pdf",
+        "codes": {
+          "A39.1": 4,
+          "A39.9": 6
+        },
+        "categories": {
+          "A39": 10
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 1
+      },
+      {
+        "filename": "NEJMicm2505110.pdf",
+        "codes": {
+          "B01": 6,
+          "B01.9": 4
+        },
+        "categories": {
+          "B01": 10
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 1
+      },
+      {
+        "filename": "119-NEJMicm2102632.pdf",
+        "codes": {
+          "A42.8": 6,
+          "A42.0": 4
+        },
+        "categories": {
+          "A42": 10
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 1
+      },
+      {
+        "filename": "160-NEJMicm2112363.pdf",
+        "codes": {
+          "K00": 9,
+          "K00.6": 1
+        },
+        "categories": {
+          "K00": 10
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 1
+      },
+      {
+        "filename": "106-NEJMcpc2103461.pdf",
+        "codes": {
+          "D69.5": 7,
+          "D69.3": 3
+        },
+        "categories": {
+          "D69": 10
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 1
+      }
+    ],
+    "category_disagree": [
+      {
+        "filename": "NEJMicm2514525.pdf",
+        "codes": {
+          "B48.5": 8,
+          "B20.6": 2
+        },
+        "categories": {
+          "B48": 8,
+          "B20": 2
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 2
+      },
+      {
+        "filename": "125-NEJMicm2104358.pdf",
+        "codes": {
+          "B27": 6,
+          "NF-0037": 4
+        },
+        "categories": {
+          "B27": 6,
+          "NF-0037": 4
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 2
+      },
+      {
+        "filename": "179-NEJMicm2113099.pdf",
+        "codes": {
+          "NF-0031": 5,
+          "L81.8": 5
+        },
+        "categories": {
+          "NF-0031": 5,
+          "L81": 5
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 2
+      },
+      {
+        "filename": "140-NEJMcpc2027096.pdf",
+        "codes": {
+          "D61": 7,
+          "D61.2": 1,
+          "NF-0038": 1,
+          "D61.1": 1
+        },
+        "categories": {
+          "D61": 9,
+          "NF-0038": 1
+        },
+        "n_unique_code": 4,
+        "n_unique_category": 2
+      },
+      {
+        "filename": "190-NEJMcpc2107349.pdf",
+        "codes": {
+          "A52.1": 9,
+          "A50.4": 1
+        },
+        "categories": {
+          "A52": 9,
+          "A50": 1
+        },
+        "n_unique_code": 2,
+        "n_unique_category": 2
+      }
+    ]
+  },
+  "part8_depth_stability": {
+    "by_depth": {
+      "4": {
+        "total": 10,
+        "stable_consistent": 10,
+        "stable_inconsistent": 0,
+        "unstable": 0,
+        "NF_persistent": 0,
+        "NF_intermittent": 0,
+        "unstable_pct": 0.0
+      },
+      "2": {
+        "total": 135,
+        "stable_consistent": 106,
+        "stable_inconsistent": 25,
+        "unstable": 2,
+        "NF_persistent": 0,
+        "NF_intermittent": 2,
+        "unstable_pct": 0.02962962962962963
+      },
+      "0": {
+        "total": 36,
+        "stable_consistent": 0,
+        "stable_inconsistent": 0,
+        "unstable": 0,
+        "NF_persistent": 35,
+        "NF_intermittent": 1,
+        "unstable_pct": 0.027777777777777776
+      },
+      "3": {
+        "total": 20,
+        "stable_consistent": 15,
+        "stable_inconsistent": 5,
+        "unstable": 0,
+        "NF_persistent": 0,
+        "NF_intermittent": 0,
+        "unstable_pct": 0.0
+      }
+    }
+  },
   "warnings": [
-    "[INDEPENDENCIA] El diccionario NF acumulativo compromete la independencia entre corridas. 25 diagnósticos son NF en TODAS las corridas (cacheados). Los intervalos de confianza de la Parte 2 asumen independencia, pero las corridas comparten estado a través del diccionario NF.",
-    "[NF-CHURN] 4 diagnóstico(s) entran/salen de NF entre corridas. Esto indica que el pipeline SÍ reintenta algunos diagnósticos, pero el resultado varía.",
-    "[JUEZ-LLM] 1 diagnóstico(s) tienen código estable pero coherencia variable entre corridas. Esto es varianza del evaluador (MedGemma), no del pipeline. Afecta métricas de coherencia/precisión."
+    "[BUG] 1 case(s) with match_type exact_complete/exact_core are NOT 100% stable across runs. This breaks the determinism expectation. Filenames: ['NEJMicm2514525.pdf']",
+    "[INDEPENDENCE] The cumulative NF dictionary compromises independence between runs. 35 diagnoses are NF in EVERY run (cached). The Part 2 confidence intervals assume independence, but the runs share state through the NF dictionary.",
+    "[NF-CHURN] 3 diagnosis(es) enter/leave NF across runs. This means the pipeline DOES retry some diagnoses, but the outcome varies."
   ]
 }

@@ -5,11 +5,11 @@
 
 [NF]  Dictionary loaded: 0 entries
 
-[Chapters] Cache loaded: 0 categories
+[Chapters] Cache loaded: 152 categories
 
 
 ##############################################################################
-# SESSION START  2026-08-19 20:42:21
+# SESSION START  2026-08-23 08:13:37
 #-----------------------------------------------------------------------------
 #   icd version      : ICD-11
 #   model            : medgemma-27b-it
@@ -31,7 +31,7 @@
 
 ==============================================================================
 = RUN 1/10  ·  dataset-run1.csv
-= started 2026-08-19 20:42:22
+= started 2026-08-23 08:13:38
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -58,34 +58,7 @@
 
 ==============================================================================
 = RUN 2/10  ·  dataset-run2.csv
-= started 2026-08-19 20:48:05
-==============================================================================
-[CSV] 201 rows loaded
-[CSV] diagnosis_en: 201
-
-
-── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  54 ( 26.9%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 109 ( 54.2%)
-  NF (not found)                  :  26 ( 12.9%)
-  --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
-────────────────────────────────────────────────────────
-  Name differs from phrase    : 192 of 201
-  Resolved by complete phrase : 106
-  Resolved by disease name    : 69   <- gain from this step
-────────────────────────────────────────────────────────
-
-[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run2.csv
-
-
-==============================================================================
-= RUN 3/10  ·  dataset-run3.csv
-= started 2026-08-19 20:54:13
+= started 2026-08-23 08:20:15
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -97,13 +70,40 @@
   Exact lexical index (name)      :  55 ( 27.4%)
   Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
   Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 108 ( 53.7%)
-  NF (not found)                  :  26 ( 12.9%)
+  WHO /search pool + LLM chooses  : 107 ( 53.2%)
+  NF (not found)                  :  27 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
+  With ICD-11 code                : 174 ( 86.6%)
 ────────────────────────────────────────────────────────
   Name differs from phrase    : 192 of 201
-  Resolved by complete phrase : 105
+  Resolved by complete phrase : 104
+  Resolved by disease name    : 70   <- gain from this step
+────────────────────────────────────────────────────────
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run2.csv
+
+
+==============================================================================
+= RUN 3/10  ·  dataset-run3.csv
+= started 2026-08-23 08:26:09
+==============================================================================
+[CSV] 201 rows loaded
+[CSV] diagnosis_en: 201
+
+
+── Matching statistics ─────────────────────────────────
+  Diagnoses processed         : 201
+  Exact lexical index (complete)  :   5 (  2.5%)
+  Exact lexical index (name)      :  55 ( 27.4%)
+  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
+  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
+  WHO /search pool + LLM chooses  : 106 ( 52.7%)
+  NF (not found)                  :  28 ( 13.9%)
+  --------------------------------   -----------
+  With ICD-11 code                : 173 ( 86.1%)
+────────────────────────────────────────────────────────
+  Name differs from phrase    : 192 of 201
+  Resolved by complete phrase : 103
   Resolved by disease name    : 70   <- gain from this step
 ────────────────────────────────────────────────────────
 
@@ -112,7 +112,7 @@
 
 ==============================================================================
 = RUN 4/10  ·  dataset-run4.csv
-= started 2026-08-19 21:00:18
+= started 2026-08-23 08:31:58
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -121,16 +121,16 @@
 ── Matching statistics ─────────────────────────────────
   Diagnoses processed         : 201
   Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  55 ( 27.4%)
+  Exact lexical index (name)      :  56 ( 27.9%)
   Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
   Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 108 ( 53.7%)
-  NF (not found)                  :  26 ( 12.9%)
+  WHO /search pool + LLM chooses  : 106 ( 52.7%)
+  NF (not found)                  :  27 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
+  With ICD-11 code                : 174 ( 86.6%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 104
+  Name differs from phrase    : 192 of 201
+  Resolved by complete phrase : 103
   Resolved by disease name    : 71   <- gain from this step
 ────────────────────────────────────────────────────────
 
@@ -139,7 +139,88 @@
 
 ==============================================================================
 = RUN 5/10  ·  dataset-run5.csv
-= started 2026-08-19 21:06:23
+= started 2026-08-23 08:37:42
+==============================================================================
+[CSV] 201 rows loaded
+[CSV] diagnosis_en: 201
+
+
+── Matching statistics ─────────────────────────────────
+  Diagnoses processed         : 201
+  Exact lexical index (complete)  :   5 (  2.5%)
+  Exact lexical index (name)      :  55 ( 27.4%)
+  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
+  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
+  WHO /search pool + LLM chooses  : 107 ( 53.2%)
+  NF (not found)                  :  27 ( 13.4%)
+  --------------------------------   -----------
+  With ICD-11 code                : 174 ( 86.6%)
+────────────────────────────────────────────────────────
+  Name differs from phrase    : 192 of 201
+  Resolved by complete phrase : 104
+  Resolved by disease name    : 70   <- gain from this step
+────────────────────────────────────────────────────────
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run5.csv
+
+
+==============================================================================
+= RUN 6/10  ·  dataset-run6.csv
+= started 2026-08-23 08:43:25
+==============================================================================
+[CSV] 201 rows loaded
+[CSV] diagnosis_en: 201
+
+
+── Matching statistics ─────────────────────────────────
+  Diagnoses processed         : 201
+  Exact lexical index (complete)  :   5 (  2.5%)
+  Exact lexical index (name)      :  57 ( 28.4%)
+  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
+  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
+  WHO /search pool + LLM chooses  : 106 ( 52.7%)
+  NF (not found)                  :  26 ( 12.9%)
+  --------------------------------   -----------
+  With ICD-11 code                : 175 ( 87.1%)
+────────────────────────────────────────────────────────
+  Name differs from phrase    : 192 of 201
+  Resolved by complete phrase : 103
+  Resolved by disease name    : 72   <- gain from this step
+────────────────────────────────────────────────────────
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run6.csv
+
+
+==============================================================================
+= RUN 7/10  ·  dataset-run7.csv
+= started 2026-08-23 08:49:04
+==============================================================================
+[CSV] 201 rows loaded
+[CSV] diagnosis_en: 201
+
+
+── Matching statistics ─────────────────────────────────
+  Diagnoses processed         : 201
+  Exact lexical index (complete)  :   5 (  2.5%)
+  Exact lexical index (name)      :  56 ( 27.9%)
+  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
+  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
+  WHO /search pool + LLM chooses  : 105 ( 52.2%)
+  NF (not found)                  :  28 ( 13.9%)
+  --------------------------------   -----------
+  With ICD-11 code                : 173 ( 86.1%)
+────────────────────────────────────────────────────────
+  Name differs from phrase    : 191 of 201
+  Resolved by complete phrase : 101
+  Resolved by disease name    : 72   <- gain from this step
+────────────────────────────────────────────────────────
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run7.csv
+
+
+==============================================================================
+= RUN 8/10  ·  dataset-run8.csv
+= started 2026-08-23 08:54:59
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -158,91 +239,6 @@
 ────────────────────────────────────────────────────────
   Name differs from phrase    : 192 of 201
   Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from this step
-────────────────────────────────────────────────────────
-
-[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run5.csv
-
-
-==============================================================================
-= RUN 6/10  ·  dataset-run6.csv
-= started 2026-08-19 21:12:16
-==============================================================================
-[CSV] 201 rows loaded
-[CSV] diagnosis_en: 201
-
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
-
-── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  55 ( 27.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  27 ( 13.4%)
-  --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
-────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 70   <- gain from this step
-────────────────────────────────────────────────────────
-
-[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run6.csv
-
-
-==============================================================================
-= RUN 7/10  ·  dataset-run7.csv
-= started 2026-08-19 21:17:45
-==============================================================================
-[CSV] 201 rows loaded
-[CSV] diagnosis_en: 201
-
-
-── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  55 ( 27.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  27 ( 13.4%)
-  --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
-────────────────────────────────────────────────────────
-  Name differs from phrase    : 192 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 70   <- gain from this step
-────────────────────────────────────────────────────────
-
-[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run7.csv
-
-
-==============================================================================
-= RUN 8/10  ·  dataset-run8.csv
-= started 2026-08-19 21:23:29
-==============================================================================
-[CSV] 201 rows loaded
-[CSV] diagnosis_en: 201
-
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
-
-── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  56 ( 27.9%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
-  WHO /search pool + LLM chooses  : 108 ( 53.7%)
-  NF (not found)                  :  25 ( 12.4%)
-  --------------------------------   -----------
-  With ICD-11 code                : 176 ( 87.6%)
-────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 105
   Resolved by disease name    : 71   <- gain from this step
 ────────────────────────────────────────────────────────
 
@@ -251,7 +247,7 @@
 
 ==============================================================================
 = RUN 9/10  ·  dataset-run9.csv
-= started 2026-08-19 21:29:39
+= started 2026-08-23 09:00:49
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -260,17 +256,17 @@
 ── Matching statistics ─────────────────────────────────
   Diagnoses processed         : 201
   Exact lexical index (complete)  :   5 (  2.5%)
-  Exact lexical index (name)      :  56 ( 27.9%)
+  Exact lexical index (name)      :  55 ( 27.4%)
   Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
   Fuzzy lexicon + LLM validates (name):   6 (  3.0%)
   WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  26 ( 12.9%)
+  NF (not found)                  :  27 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
+  With ICD-11 code                : 174 ( 86.6%)
 ────────────────────────────────────────────────────────
   Name differs from phrase    : 192 of 201
   Resolved by complete phrase : 104
-  Resolved by disease name    : 71   <- gain from this step
+  Resolved by disease name    : 70   <- gain from this step
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run9.csv
@@ -278,7 +274,7 @@
 
 ==============================================================================
 = RUN 10/10  ·  dataset-run10.csv
-= started 2026-08-19 21:34:19
+= started 2026-08-23 09:05:35
 ==============================================================================
 [CSV] 201 rows loaded
 [CSV] diagnosis_en: 201
@@ -296,16 +292,16 @@
   With ICD-11 code                : 174 ( 86.6%)
 ────────────────────────────────────────────────────────
   Name differs from phrase    : 192 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from this step
+  Resolved by complete phrase : 102
+  Resolved by disease name    : 72   <- gain from this step
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/dataset-run10.csv
 
-[NF]  0 -> 27 entries (+27)
+[NF]  0 -> 28 entries (+28)
 [NF]  Saved to: /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/nf_dictionary.json
 [Chapters] Cache saved: 152 categories in /home/rivas/Agents/Etiquetado ICD11/Segunda Run/ICD11/chapter_cache.json
 
 
-[session closed 2026-08-19 21:36:58]
+[session closed 2026-08-23 09:08:15]
 
